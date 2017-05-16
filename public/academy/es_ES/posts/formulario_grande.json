@@ -1,9 +1,9 @@
 {
-  "preview_img" : "/academy/es_ES/img/formulario_grande_preview.png",
+  "preview_img" : "/academy/es_ES/img/formulario_preview.png",
   "preview_title" : "Imaginate un formulario que se adapta el dispositivo",
   "preview_subtitle" : "WOW sería imposible, pues jodete sí que se puede",
   "preview_button" : "Joder dime como",
-  "img" : "/academy/es_ES/img/grey.jpg",
+  "img" : "/academy/es_ES/img/formulario_inside.jpg",
   "text_color" : "black",
   "title" : "Formulario grande ande o no ande",
   "subtitle" : "este es el subtitulo del formulario",
