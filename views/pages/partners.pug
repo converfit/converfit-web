@@ -1,0 +1,49 @@
+extends ../layout
+
+block content
+  script.
+    var appPath = "#{appPath}";
+  section(class="cover height-50 text-center")
+    div(class="container pos-vertical-center")
+      div(class="row")
+        div(class="col-sm-12 col-md-10")
+          h1(class='color--primary') #{lang.partners.title}
+          h2 #{lang.partners.subtitle}
+          p(class="lead") #{lang.partners.content}
+          a(class="btn btn--primary type--uppercase" href="/partner/signup")
+            span(class="btn__text") #{lang.partners.join_button}
+  section(class='bg--secondary')
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-12 text-center")
+          h1 #{lang.partners.why_title}
+  section(class='feature-large bg--secondary')
+    div(class="container")
+      div(class="row text-justify")
+        div(class="col-sm-6 col-xs-12")
+          h2 #{lang.partners.why_block_1_title}
+          p(class="lead") #{lang.partners.why_block_1_content}
+        div(class="col-sm-6 col-xs-12")
+          h2 #{lang.partners.why_block_2_title}
+          p(class="lead") #{lang.partners.why_block_2_content}
+  section(class='feature-large bg--secondary')
+    div(class="container")
+      div(class="row text-justify")
+        div(class="col-sm-6 col-xs-12")
+          h2 #{lang.partners.why_block_3_title}
+          p(class="lead") #{lang.partners.why_block_3_content}
+        div(class="col-sm-6 col-xs-12")
+          h2 #{lang.partners.why_block_3_title}
+          p(class="lead") #{lang.partners.why_block_3_content}
+        div(class="col-sm-6 col-xs-12")
+  section
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-12 text-center")
+          h2  #{lang.partners.join_block_title}
+          p(class="lead") #{lang.partners.join_block_subtitle}
+          a(class="btn btn--sm btn--primary type--uppercase" href="/partner/signup")
+            span(class="btn__text") #{lang.partners.join_block_button}
+
+
+block scripts

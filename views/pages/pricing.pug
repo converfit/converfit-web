@@ -1,0 +1,79 @@
+extends ../layout
+
+block content
+  section(class="text-center")
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-10 col-md-8")
+          h1 #{lang.pricing.title}
+          p(class="lead") #{lang.pricing.subtitle}
+  section
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-6 col-md-4")
+          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
+            h2(class='color--primary') #{lang.pricing.starter_title}
+            span(class="h2")
+              span(class="pricing__dollar small") €&nbsp;
+              | #{lang.pricing.starter_price}
+              small #{lang.pricing.month}
+            span #{lang.pricing.price_without_tax}
+            ul
+              li 
+                b #{lang.pricing.starter_users}
+              li #{lang.pricing.starter_segments}
+              li #{lang.pricing.starter_tests}
+              li #{lang.pricing.starter_customs}
+              li #{lang.pricing.starter_accademy}
+            a(class="btn btn--primary" href="javascript:void(0)" id="starter-button")
+              span(class="btn__text type--uppercase" id="starter-button") #{lang.pricing.select_plan}
+        div(class="col-sm-6 col-md-4")
+          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
+            h2(class='color--primary') #{lang.pricing.pro_title}
+            span(class="h2")
+              span(class="pricing__dollar small") €&nbsp;
+              | #{lang.pricing.pro_price}
+              small #{lang.pricing.month}
+            span #{lang.pricing.price_without_tax}
+            ul
+              li 
+                b #{lang.pricing.pro_users}
+              li #{lang.pricing.pro_segments}
+              li #{lang.pricing.pro_tests}
+              li #{lang.pricing.pro_customs}
+              li #{lang.pricing.pro_accademy}
+            a(class="btn btn--primary" href="javascript:void(0)" id="professional-button")
+              span(class="btn__text type--uppercase") #{lang.pricing.select_plan}
+        div(class="col-sm-6 col-md-4")
+          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
+            h2(class='color--primary') #{lang.pricing.enterprise_title}
+            span(class="h2")
+              span(class="pricing__dollar small") €&nbsp;
+              | #{lang.pricing.enterprise_price}
+              small #{lang.pricing.month}
+            span #{lang.pricing.price_without_tax}
+            ul
+              li 
+                b #{lang.pricing.enterprise_users}
+              li #{lang.pricing.enterprise_segments}
+              li #{lang.pricing.enterprise_tests}
+              li #{lang.pricing.enterprise_customs}
+              li #{lang.pricing.enterprise_accademy}
+            a(class="btn btn--primary" href="javascript:void(0)" id="enterprise-button")
+              span(class="btn__text type--uppercase") #{lang.pricing.select_plan}
+  
+  section(class="text-center")
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-10 col-md-8")
+          h3 #{lang.pricing.startup_section_title}
+          p #{lang.pricing.startup_section_subtitle}
+          div
+            a(class="btn btn--primary type--uppercase" href='/startups')
+              span(class="btn__text") #{lang.pricing.startup_section_button}
+  
+
+
+block scripts
+  script(src="https://checkout.stripe.com/checkout.js")
+  script(src="/assets/js/pages/pricing/script.js" type="text/javascript")

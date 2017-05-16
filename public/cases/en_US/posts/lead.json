@@ -1,0 +1,51 @@
+{
+  "preview_img" : "/cases/es_ES/img/preview_grey.png",
+  "preview_title" : "Web de Captación",
+  "preview_subtitle" : "Centrada en capturar leads, especialmente empresas B2B o Apps móviles",
+  "preview_button" : "Ver Caso de Uso",
+
+  "img" : "/academy/es_ES/img/grey.jpg",
+  "text_color" : "black",
+  "title" : "Capta más leads con Converfit",
+  "subtitle" : "Sabes que no existe el formulario perfecto, ¡hagamos algo!",
+  
+  "features_title" : "La suite de marketing para vender más",
+  "features_subtitle" : "Tú solo, sin depender de nadie",
+
+  "features":{
+    "segments":{
+      "preview_img" : "/cases/es_ES/img/preview_grey.png",
+      "preview_title" : "Segmentación",
+      "preview_subtitle" : "¿Quiénes son los leads que más captas? ¿De dónde vienen? ¿Qué les interesa? Descubre dónde sabes captar y ¡poténcialo! ¿Preparado para una estrategia captación (casi) perfecta?",
+      "img" : "/cases/es_ES/img/grey.jpg",
+      "title" : "Segmentación",
+      "subtitle" : "DESCUBRE A TUS LEADS, PERO A LOS DE VERDAD",
+      "content" : "<p>Segmenta a tu audiencia y analiza cuáles son los canales donde captas más leads, explota donde eres fuerte y descubre tus flaquezas para diseñar una estrategia que te permita volverte fuerte.</p><p>Conoce mejor a tus potenciales leads con tu estrategia de marketing (inbound marketing, campaña de influencers, social ads, SEM, emailing) y céntrate en conclusiones reales basadas en tus datos.</p>"
+    },
+    "tests" : {
+      "preview_img" : "/cases/es_ES/img/preview_grey.png",
+      "preview_title" : "Tests de Mejora",
+      "preview_subtitle" : "No bases tus decisiones en leyendas urbanas. Formulario con email, quitamos el nombre, que el botón sea grande. Con los tests de mejora, podrás mejorar tu formulario de captación para que sea inmejorable.",
+      "img" : "/cases/es_ES/img/grey.jpg",
+      "title" : "Tests de Mejora",
+      "subtitle" : "¿Y SI TUS LEADS NO SON PEREZOSOS?",
+      "content" : "<p>¿Los formularios largos o cortos? Que no te convenzan…, básate en la propia experiencia de tus visitas y descubre la forma exitosa de convertirlos en leads útiles. Es hora de que controles tu web y reconozcas qué cambios suponen una mejora sustancial de tus resultados.</p><p>Porque lo que funciona en un sector en particular no tiene porqué funcionar en tu área de negocio.</p>"
+    },
+    "customization" : {
+      "preview_img" : "/cases/es_ES/img/preview_grey.png",
+      "preview_title" : "Personalización",
+      "preview_subtitle" : "Sabes que no es lo mismo explicar tu herramienta a un cliente o a otro, ¿te imaginas que el fomulario cambie dependiendo del tipo de usuario que accede? No es lo mismo captar leads con un texto que con un texto dinámico que se adapte a cada uno de tus potenciales clientes.",
+      "img" : "/cases/es_ES/img/grey.jpg",
+      "title" : "Personalización",
+      "subtitle" : "PORQUE NO TODOS LOS LEADS SON IGUALES",
+      "content" : "<p>Llegados a este punto, ya conoces quiénes son tus leads potenciales, a quiénes atacar y a quién no, ¿por qué no adelantarse a los acontecimientos? Haz que tu web varíe en función del usuario que la visite, personaliza los textos, los botones o incluso el formulario basándote en la información que ya tienes. Esto es adaptarse o morir.</p>"
+    }
+  },
+  "academy_title" : "No es lo mismo contarlo que vivirlo",
+  "academy_subtitle" : "Aprende cómo aumentar tu conversión hasta el infinito",
+  "academy_posts":[
+    "influencers",
+    "snipers",
+    "snipers1"
+  ]
+}

@@ -1,0 +1,22 @@
+extends ../../layout
+
+block content
+  script.
+    var appPath = "#{appPath}";
+  section(class="cover height-80 text-center")
+    div(class="container pos-vertical-center")
+      div(class="row")
+        div(class="col-sm-12 col-md-6")
+          h2 #{lang.partners.singup.title}
+          p(class="lead") #{lang.partners.singup.subtitle}
+          form(id="partners-signup-form" role="form")
+            div(class="col-xs-12")
+              input( type="text" id="fullName" name="fullName" placeholder=lang.partners.singup.fullname required)
+            div(class="col-xs-12")
+              input( type="email" id="email" name="email" placeholder=lang.partners.singup.email required)
+            div(class="col-xs-12")
+              button(type="submit" class="btn btn--sm btn--primary type--uppercase")
+                span(class="btn__text") #{lang.partners.singup.button}
+
+block scripts
+  script(src='/assets/js/pages/partners/script.js')

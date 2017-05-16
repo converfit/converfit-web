@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+  script.
+    var appPath = "#{appPath}";
+  section(class="cover height-100 text-center")
+    div(class="container pos-vertical-center")
+      div(class="row")
+        div(class="col-sm-12 col-md-10")
+          h1(class='color--primary') Redireccinando a Calendly...
+          h2
+            | Te estamos llevando a nuestro servicio
+            br
+            | de reserva de demos personalizadas
+          p(class="lead") Puede llevar unos segundos
+          a(class="btn btn--primary type--uppercase" href="https://calendly.com/converfit-pablo/demo/")
+            span(class="btn__text") Ir a Calendly
+
+block scripts
+  script.
+    window.location.href= "https://calendly.com/converfit-pablo/demo/";

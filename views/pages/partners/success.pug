@@ -1,0 +1,14 @@
+extends ../../layout
+
+block content
+  script.
+    var appPath = "#{appPath}";
+  section(class="cover height-80 text-center")
+    div(class="container pos-vertical-center")
+      div(class="row")
+        div(class="col-sm-12 col-md-6")
+          div(class="h5 text-center")
+            i(class="icon--lg icon-Yes")
+          h2 #{lang.partners.success.title}
+          p(class="lead") #{lang.partners.success.subtitle}
+block scripts

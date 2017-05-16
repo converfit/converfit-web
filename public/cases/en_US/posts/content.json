@@ -1,0 +1,53 @@
+{
+  "preview_img" : "/cases/es_ES/img/preview_grey.png",
+  "preview_title" : "Web de Contenido",
+  "preview_subtitle" : "Blog, revista online o red social que obtiene ingresos por publicidad",
+  "preview_button" : "Ver Caso de Uso",
+
+  "img" : "/academy/es_ES/img/grey.jpg",
+  "text_color" : "black",
+  "title" : "Converfit para Páginas de Contenido",
+  "subtitle" : "No es lo mismo un usuario activo que un FAN",
+  
+  
+  "features_title" : "La suite de marketing para convertir más",
+  "features_subtitle" : "Tú solo, sin depender de nadie",
+
+  "features":{
+    "segments":{
+      "preview_img" : "/cases/es_ES/img/preview_grey.png",
+      "preview_title" : "Segmentación",
+      "preview_subtitle" : "No es lo mismo tener una visita esporádica que una visita que se muere por entrar todos los días. ¡Descubre quiénes son!",
+      "img" : "/cases/es_ES/img/grey.jpg",
+      "title" : "Segmentación",
+      "subtitle" : "¿VISITAS O FANS?",
+      "content" : "<p>Necesitas conocer quiénes son tus lectores, necesitas que vuelvan una y otra vez a tu contenido, necesitas que se conviertan en FANS de web. Conociendo quiénes son podrás planificar una estrategia de contenidos útil con buenos resultados. No te la juegues, descubre tus puntos fuertes y aumenta la recurrencia de cada usuario. Automatiza las visitas y ten tiempo suficiente para captar nuevos lectores. ¡Es la hora!</p>"
+    },
+    "tests" : {
+      "preview_img" : "/cases/es_ES/img/preview_grey.png",
+      "preview_title" : "Tests de Mejora",
+      "preview_subtitle" : "Conoce las palabras mágicas que convierten a una visita normal en un lector aférrimo que espera con ansia tus actualizaciones",
+      "img" : "/cases/es_ES/img/grey.jpg",
+      "title" : "Tests de Mejora",
+      "subtitle" : "CONSIGUE QUE TUS VISITAS VUELVAN CADA DÍA",
+      "content" : "<p>Es tu contenido, tú sabes lo que le interesa a tu audiencia a grandes rasgos pero ahora puedes hilar mucho más fino incluyendo tests de mejora en tu website. Encuentra, a tiempo real, qué banner, qué pestaña o qué tipo de post hace que tu audiencia vuelva cada día.</p><p>Conseguir que tu público visite tu web con asiduidad solo va a traerte cosas buenas :)</p><p>Con Converfit es fácil e intuituvo. Puedes hacerlo tú mismo, sin necesidad de contratar a un experto.</p>"
+    },
+    "customization" : {
+      "preview_img" : "/cases/es_ES/img/preview_grey.jpg",
+      "preview_title" : "Personalización",
+      "preview_subtitle" : "Si supieras que un usuario solo lee tus posts de un tema en particular, ¿por qué no vas a mostrarle el contenido que le interesa directamente?",
+      "img" : "/cases/es_ES/img/grey.jpg",
+      "title" : "Tests de Mejora",
+      "subtitle" : "CONSIGUE QUE TUS VISITAS VUELVAN CADA DÍA",
+      "content" : "<p>Es muy fácil fiarse de las teorías de otros acerca del poder de las palabras, las palabras que más convierten y los temas más interesantes. Pero sabemos, a ciencia cierta, que lo que es útil para unos, no lo es para otros. Modifica tu web para cada usuario, muéstrale los temas que de verdad le interesan y gánate la confianza de ellos. No es lo mismo que las visitas de tu usuario sean de 2” que de 2’. Te mereces una mayor recurrencia y lo sabes.</p>"
+    }
+  },
+  "academy_title" : "No es lo mismo contarlo que vivirlo",
+  "academy_subtitle" : "Aprende cómo aumentar tu conversión hasta el infinito",
+  "academy_posts":[
+    "influencers",
+    "snipers",
+    "snipers1"
+  ]
+
+}

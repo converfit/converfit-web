@@ -1,0 +1,44 @@
+extends ../layout
+
+block content
+  section(class="text-center")
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-10 col-md-8")
+          h1 #{lang.startups.title}
+          p(class="lead") #{lang.startups.subtitle}
+  section
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-12 col-md-6 col-md-offset-3")
+          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
+            h2(class='color--primary') #{lang.startups.startup_title}
+            span(class="h2")
+              span(class="pricing__dollar small") €&nbsp;
+              | #{lang.startups.startup_price}
+              small #{lang.startups.month}
+            span #{lang.startups.price_without_tax}
+            ul
+              li 
+                b #{lang.startups.startup_users}
+              li #{lang.startups.startup_segments}
+              li #{lang.startups.startup_tests}
+              li #{lang.startups.startup_customs}
+              li #{lang.startups.startup_limit}
+            a(class="btn btn--primary" href="javascript:void(0)" id="startup-button")
+              span(class="btn__text type--uppercase") #{lang.startups.select_plan}
+        div(class="col-sm-6 col-md-4")
+  
+  section(class="text-center")
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-10 col-md-8")
+          h3 #{lang.startups.pricing_section_title}
+          p #{lang.startups.pricing_section_subtitle}
+          div
+            a(class="btn btn--primary type--uppercase" href='/pricing')
+              span(class="btn__text") #{lang.startups.pricing_section_button}
+
+block scripts
+  script(src="https://checkout.stripe.com/checkout.js")
+  script(src="/assets/js/pages/startups/script.js" type="text/javascript")

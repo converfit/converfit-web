@@ -1,0 +1,9 @@
+# Logs
+logs
+*.log
+
+# Debug log from npm
+npm-debug.log
+
+# Mac Bullsh*t
+.DS_Store

@@ -1,0 +1,53 @@
+{
+  "preview_img" : "/cases/es_ES/img/preview_grey.png",
+  "preview_title" : "Tienda Online",
+  "preview_subtitle" : "Tienda online que vende productos tanto físicos como digitales",
+  "preview_button" : "Ver Caso de Uso",
+
+  "img" : "/academy/es_ES/img/grey.jpg",
+  "text_color" : "black",
+  "title" : "Converfit para e-commerces",
+  "subtitle" : "Descubre cómo aumentar tus ventas en un 20% (o más)",
+  
+  
+  "features_title" : "La suite de marketing para vender más",
+  "features_subtitle" : "Tú solo, sin depender de nadie",
+
+  "features":{
+    "segments":{
+      "preview_img" : "/cases/es_ES/img/preview_grey.png",
+      "preview_title" : "Segmentación",
+      "preview_subtitle" : "¿Conoces a tus compradores? Saber es poder. Descubre tu punto fuerte y débil y prepara estrategias de conversión perfectas.",
+      "img" : "/cases/es_ES/img/grey.jpg",
+      "title" : "Segmentación",
+      "subtitle" : "CONOCE TUS PUNTOS FUERTES Y ¡ATACA!",
+      "content" : "<p>Sácale partido a la segmentación de tus clientes, conoce dónde tienes un mayor potencial de crecimiento y potencia tus ventas desde ahora mismo. Ahora que ya conoces tu punto fuerte, ¡aprovéchalo!</p><p>Extrae conclusiones reales y útiles de tu estrategia de marketing: inbound marketing, campaña de influencers, social ads, SEM, emailing. Clasifica a tu audiencia y optimiza tu ecommerce de una forma rápida y sencilla.</p>"
+    },
+    "tests" : {
+      "preview_img" : "/cases/es_ES/img/preview_grey.png",
+      "preview_title" : "Tests de Mejora",
+      "preview_subtitle" : "En los detalles está la diferencia. Utiliza nuestros tests para modificar tu web y saber qué convierte más. ¡Prueba y acierta sin necesidad de un experto!",
+      "img" : "/cases/es_ES/img/grey.jpg",
+      "title" : "Tests de Mejora",
+      "subtitle" : "LO QUE LES FUNCIONA A OTROS, NO TIENE POR QUÉ FUNCIONARTE A TI",
+      "content" : "<p>¿Los botones verdes convierten más? Déjate de cuentos chinos y empieza a lanzar tests a tu elección y descubre qué elementos convierten más y cuáles menos.</p><p>No te bases en teorías de otros, descubre qué os funciona a ti y a tu audiencia y reconoce cuáles son los cambios que más ventas te generan.</p>"
+    },
+    "customization" : {
+      "preview_img" : "/cases/es_ES/img/preview_grey.png",
+      "preview_title" : "Personalización",
+      "preview_subtitle" : "Ahora que ya conoces a tus usuarios, personaliza su experiencia y comprueba qué aumenta hasta el infinito tus ventas. No es lo mismo vender un poco que venderlo todo.",
+      "img" : "/cases/es_ES/img/grey.jpg",
+      "title" : "Tests de Mejora",
+      "subtitle" : "PORQUE NO TODOS COMPRAMOS DE LA MISMA MANERA",
+      "content" : "<p>Si ya conoces a tus usuarios, cuáles son puntos fuertes y cuáles son los débiles, ¿por qué no explotar toda esta información? Haz que tu web se modifique para cada usuario, como un camaleón. Personaliza tus ofertas, tus banners, tu carrito, etc., basándote en toda la información que ya sabes. No creas que es complicado, con Converfit podrás hacerlo de una forma sencilla sin depender de nadie.</p>"
+    }
+  },
+  "academy_title" : "No es lo mismo contarlo que vivirlo",
+  "academy_subtitle" : "Aprende cómo aumentar tu conversión hasta el infinito",
+  "academy_posts":[
+    "influencers",
+    "formulario_grande",
+    "snipers1"
+  ]
+
+}
