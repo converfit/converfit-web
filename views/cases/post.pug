@@ -7,15 +7,19 @@ block content
     div(class="container pos-vertical-center")
       div(class="row")
         div(class="col-sm-10 col-md-8")
-          h1(class="text-"+post.text_color) !{post.title}
-          p(class="lead text-"+post.text_color) !{post.subtitle}
+          h1(class="text-"+post.text_color)
+            | !{post.title}
+          p(class="lead text-"+post.text_color)
+            | !{post.subtitle}
 
   section(class='text-center')
     div(class='container')
       div(class='row')
         div(class="col-sm-10 col-md-8")
-          h2 !{post.features_title}
-          p(class="lead") !{post.features_subtitle}
+          h2
+            | !{post.features_title}
+          p(class="lead")
+            | !{post.features_subtitle}
   section(class='text-center')
     div(class='container')
       div(class='row')
@@ -23,8 +27,10 @@ block content
         each feature, index in post.features
           div(class="col-sm-12 col-md-4")
             img(src=feature.preview_img class='width-100 m-b-10')
-            h4 !{feature.preview_title}
-            p !{feature.preview_subtitle}
+            h4
+              | !{feature.preview_title}
+            p 
+             | !{feature.preview_subtitle}
           if (count % 3 == 2)
             div(class="col-md-12 hidden-sm hidden-xs")
           - count += 1;
@@ -35,25 +41,33 @@ block content
         div(class='row')
           if (count % 2 == 1)
             div(class='col-sm-6')
-              p !{feature.content}
+              p
+                | !{feature.content}
             div(class='col-sm-6 text-center')
               img(src=feature.img class='width-100 m-b-10')
-              h3 !{feature.title}
-              p !{feature.subtitle}
+              h3
+                | !{feature.title}
+              p
+                | !{feature.subtitle}
           else
             div(class='col-sm-6 text-center')
               img(src=feature.img class='width-100 m-b-10')
-              h3 !{feature.title}
-              p !{feature.subtitle}
-            div(class='col-sm-6') !{feature.content}
+              h3
+                | !{feature.title}
+              p
+                | !{feature.subtitle}
+            div(class='col-sm-6')
+              | !{feature.content}
           - count += 1;
   
   section(class='text-center')
     div(class='container')
       div(class='row')
         div(class="col-sm-10 col-md-8")
-          h2 !{post.academy_title}
-          p(class="lead") !{post.academy_subtitle}
+          h2
+            | !{post.academy_title}
+          p(class="lead")
+            | !{post.academy_subtitle}
   
   section(class='text-center')
     div(class='container')
@@ -62,11 +76,14 @@ block content
         each academy_post, index in post.academy
           div(class="col-sm-6 col-md-4 text-center m-b-20")
             img(src=academy_post.preview_img class='width-100 m-b-10')
-            h3 !{academy_post.preview_title} 
-            p !{academy_post.preview_subtitle}
+            h3
+              | !{academy_post.preview_title} 
+            p
+              | !{academy_post.preview_subtitle}
             div
               a(class="btn btn--primary" href="/academy/"+index)
-                span(class="btn__text type--uppercase") !{academy_post.preview_button}
+                span(class="btn__text type--uppercase")
+                  | !{academy_post.preview_button}
           if (count % 2 == 1)
             div(class="col-sm-12 visible-sm visible-xs")
           if (count % 3 == 2)
