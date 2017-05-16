@@ -1,14 +1,18 @@
 {
-  "preview_img" : "/academy/es_ES/img/preview_grey.png",
-  "preview_title" : "",
-  "preview_subtitle" : "",
-  "preview_button" : "",
-  "img" : "/academy/es_ES/img/grey.jpg",
+  "preview_img" : "/academy/es_ES/img/testab_pre.png",
+  "preview_title" : "Las imágenes de gente sonriendo impactan más a tus usuarios",
+  "preview_subtitle" : "Es el momento de que descubras qué imágenes provocan a tus clientes para comprar en ese momento",
+  "preview_button" : "LEER MÁS",
+  "img" : "/academy/es_ES/img/testab_inside.png",
   "text_color" : "black",
-  "title" : "",
-  "subtitle" : "",
-  "content" : "<p></p>",
-  "academy_title" : "",
-  "academy_subtitle" : "",
-  "academy_posts":[]
+  "title" : "Las imágenes que le funcionan a otro, no tienen que funcionarte a ti",
+  "subtitle" : "Y tú sin saber, todavía, qué fotos aumentan tus ventas",
+  "content" : "<p>¿Te imaginas <b>no tener que decantarte por una imagen</b> basada en tu criterio sin saber si hace que tus usuarios hagan más o menos clicks?<p><p>Investiga si el tipo de imagen influye en la decisión de usuario y cuál te genera más impacto. La posibilidad de testear las imágenes y elegir cuál aumenta tus ventas es el principio de una buena optimización.</p><p>Se rumorea que las imágenes de mujeres o de un grupo de personas sonriendo convierten más que cualquier otro tipo de fotografía. O que las imágenes solo de producto impactan más que las que incluyen tu producto en un contexto.</p><p>Imagínate que te damos la opción de probar dos tipos de imágenes, las que tú prefieras, y puedas analizar con datos y en tiempo real cuál de las dos incrementa tus ventas. Porque lo que les funciona a unos, fijo que a ti no te funciona y tienes derecho a saber qué es lo que te funciona de verdad.</p><h4><b>¿La propuesta de Converfit?</b></h4><p>Lanza tu primer Test A/B, para toda tu audiencia. Por ejemplo, modifica tu imagen de portada, es decir, la primera imagen que habla de tu marca, tu carta de presentación. Elige 2 imágenes diferentes y muéstrale al 50% de tus visitas la imagen A y al otro 50% la imagen B. Elige la acción de conversión que quieras mejorar. Si estamos en un ecommerce, la conversión sería finalizar compra. Atrae tráfico a tu web y siéntate delante de tu panel de Converfit con unas palomitas para analizar, en tiempo real, qué imagen aumenta tus ventas y así poder tomar una decisión sobre qué tipo de imagen os funciona mejor a ti y a tu público.</p><p><b>Bienvenido al fantástico mundo de los Test A/B, donde son los datos los que deciden por ti</b></p><p><b>¡EXTRA BALL!</b> ¿Y si hacemos un test A/B de imagen de producto en el que la imagen A, por ejemplo, sea la imagen del producto en particular, y la imagen B incluya el producto en sí y además otro distinto? Es más que probable que sí, que mates 2 pájaros de un tiro e incrementes las ventas de esos 2 productos a la vez. <b>PALABRITA</b>.</p>",
+  "academy_title" : "¿Quieres saber un poco más?",
+  "academy_subtitle" : "Aumenta tu conversión, hombre",
+  "academy_posts":[
+    "influencers",
+    "formulario_grande",
+    "post_banner_especial"
+  ]
 }
