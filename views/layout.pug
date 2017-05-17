@@ -67,14 +67,14 @@ html
                   i(class='icon icon--sm stack-interface stack-menu')
 
       nav(id="menu1" class="bar bar--sm bar-1 hidden-xs hiddem-sm" data-scroll-class='50px:pos-fixed')
-        div(class='container')
+        div(class='container-fluid')
           div(class='row')
             div(class='col-md-2 col-sm-2 hidden-xs')
               div(class='bar__module')
                 a(href='/')
                   img(class="logo logo-dark" alt="logo" src="/assets/img/logo_black.png")
                   img(class="logo logo-light" alt="logo" src="/assets/img/logo_white.png")
-            div(class='col-md-10 col-sm-8 text-right text-left-xs text-left-sm')
+            div(class='col-md-10 col-sm-10 text-right text-left-xs text-left-sm')
               div(class='bar__module')
                 ul(class="menu-horizontal text-left")
                   li
@@ -86,8 +86,10 @@ html
                   li
                     a(href='/academy/') #{lang.menu.academy}
                   li
+                    a(href='/plugins/') #{lang.menu.plugins}
+                  li
                     a(href='/partners/') #{lang.menu.partners}
-              div(class='bar__module hidden-xs')
+              div(class='bar__module hidden-xs text-right')
                 a(class="btn btn--sm type--uppercase" href="https://conver.fit/app/access/login")
                   span(class='btn__text') #{lang.menu.access_button}
                 a(class="btn btn--sm btn--primary type--uppercase" href="https://conver.fit/app/access/signup")
@@ -102,13 +104,6 @@ html
           div(class='col-xs-6 text-center')
               a(class="btn btn--sm btn--primary type--uppercase" href="#")
                 span(class='btn__text') #{lang.menu.signup_button}
-    div(class='bar bar--sm bg--secondary visible-xs')
-      div(class='container')
-        div(class='row')
-          div(class='col-xs-12 text-center')
-              a(href="/")
-                img(src='/assets/img/logo_black.png' height="15px")
-
 
     div(class='main-container')
       block content
@@ -128,7 +123,7 @@ html
                     span(class="btn__text") #{lang.footer.demoform_button}
               div(class='row')
                 div(class="col-sm-12 text-center small")
-                  span #{lang.footer.demoform_info}
+                  span !{lang.footer.demoform_info}
                   a(href="/terms-of-service/" target="_blank") #{lang.footer.demoform_terms}
         footer(class="space--xs bg--semidark")
           section(class="space--0")

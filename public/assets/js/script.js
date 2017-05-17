@@ -8,7 +8,7 @@ $(".lead-form").submit(function(e){
 
   ga('send', 'event', 'signup', 'lead', email);
   fbq('trackCustom', 'lead',{email:email});
-  cf('conversion', '[landing]-request-demo');
+  //cf('conversion', '[landing]-request-demo');
 
   $(".form-error").remove();
   $(".field-error").removeClass("field-error");
@@ -21,6 +21,7 @@ $(".lead-form").submit(function(e){
       email: $('input.email', this).val()
     },
     error: function(data, textStatus, jqXHR) {
+            console.log("error");
       ga('send', 'event', 'error', 'signup-lead', email);
       if(data.responseJSON === undefined){
         jqXHR = "Conexión con servidor no disponible, vuelva a intentarlo";
@@ -39,6 +40,7 @@ $(".lead-form").submit(function(e){
       }, 5000)
     },
     success: function(data) {
+      console.log("success");
       $('button', that).removeClass("btn--loading");
       window.location.href = "/calendly";
     }

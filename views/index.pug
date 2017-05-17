@@ -2,7 +2,7 @@ extends layout
 
 block content
 
-  section(class="cover imagebg image--light cover bg--secondary")
+  section(class="cover imagebg height-80 image--light cover bg--secondary")
     div(class="background-image-holder hidden-xs" style="background: url('/assets/img/promo-1.jpg'); opacity: 1;")
       img(alt="background" src="/assets/img/promo-1.jpg")
     div(class="container")
@@ -24,79 +24,12 @@ block content
   section(class="text-center")
     div(class="container")
       div(class="row")
-        div(class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2")
-          h2 Conoce a tus usuarios
-          p(class="lead") Converfit te permite segmentar a tu audiencia, ver sus características comunes y agruparlos para ofrecerles una experciena personalizada.
-  section(class="text-center")
-    div(class="container")
-      div(class="row")
-        div(class="col-sm-4")
-          div(class="feature feature-6")
-            h4 Patrones de Comportamiento
-            p Puedes configurar diferentes patrones de comportamiento y distinguir entre usuarios interesados por un típo de contiendo vs otro tipo o cazadores de tendencias vs amantes de las ofertas.
-        div(class="col-sm-4")
-          div(class="feature feature-6")
-            h4 Captación con Ads
-            p Aprovechándote de la segmentación de Facebook, Google e Instagram, puedes importar los segmentos que realizes en estas rede como por ejemplo: sexo, edad, gustos y geolocalización.
-        div(class="col-sm-4")
-          div(class="feature feature-6")
-            h4 Pixeles de Segmentación
-            p Puedes crear pixeles concretos que se pegan a tu usuario para que los identifiques, crea un pixel para un tipo de contenido concreto e insertalo en todas las páginas de dicho contenido.
-  section(class="text-center bg--secondary")
-    div(class="container")
-      div(class="row")
-        div(class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2")
-          h2 Testea tus hipótesis
-          p(class="lead") ¿Una imagen de una modelo atraerá más que la del producto para el segmento mujeres de + de 30 años? Lanza test de mejora para decidir basado en datos.
-
-  section(class="text-center bg--secondary")
-    div(class="container")
-      div(class="row")
-        div(class="col-sm-4 col-sm-offset-2")
-          div(class="feature feature-6")
-            h4 Test de Página
-            p Comprueba entre dos páginas cual convierte más para un determinado segmento.
-        div(class="col-sm-4")
-          div(class="feature feature-6")
-            h4 Test de Imagen
-            p Comprueba entre dos imágenes cual atrae más la atención y consigue un mayor éxito.
-      div(class="row")
-        div(class="col-sm-4 col-sm-offset-2")
-          div(class="feature feature-6")
-            h4 Test de Contenido
-            p Testea bloques HTML para comprobar qué texto atrae a tus usuarios.
-        div(class="col-sm-4")
-          div(class="feature feature-6")
-            h4 Test de Diseño
-            p Modifica el diseño CSS de tu página y consigue que tus usuarios amen tu diseño.
-  section(class="text-center")
-    div(class="container")
-      div(class="row")
-        div(class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2")
-          h2 Ofrece experiencias personalizadas
-          p(class="lead") Consigue que cada usuario reciba un contenido propio, los textos que más le impacten, las imágenes que más traigan su atencio, enamóralos uno por uno.
-
-  section(class="text-center")
-    div(class="container")
-      div(class="row")
-        div(class="col-sm-4 col-sm-offset-2")
-          div(class="feature feature-6")
-            h4 Personalización de Página
-            p Ofrece a cada tipo de usuario una landing, home o página de producto diferente.
-        div(class="col-sm-4")
-          div(class="feature feature-6")
-            h4 Personalización de Imagen
-            p Cada usuario recibirá una imagen diferente que sabes que llamará su atención.
-      div(class="row")
-        div(class="col-sm-4 col-sm-offset-2")
-          div(class="feature feature-6")
-            h4 Personalización de Contenido
-            p Crea contenido personalizado para cada uno de tus usuarios, capta su atención y convierte.
-        div(class="col-sm-4")
-          div(class="feature feature-6")
-            h4 Personalización de Diseño
-            p Desde tamaños, fuentes y colores, muestra diseños diferentes a cada uno de tus usuarios.
+        div(class="col-sm-10 col-md-10")
+          h1 !{lang.cases.title}
+          p(class="lead") !{lang.cases.subtitle}
+          div
+            a(class="btn btn--primary" href="/cases")
+              span(class="btn__text type--uppercase") !{lang.cases.button}
 
   
-
 block scripts
