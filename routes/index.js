@@ -27,9 +27,7 @@ router.get('/cases/', function(req, res, next) {
   for(var i in data.posts_list){
     var post = data.posts_list[i];
     if (fs.existsSync("public/cases/es_ES/posts/"+post+".json")) {
-      console.log(post);
       data.posts[post]=jsonfile.readFileSync("public/cases/es_ES/posts/"+post+".json");
-      console.log(data.posts[post]);
     }
   }
   res.render('cases/index.pug', data);
@@ -48,15 +46,11 @@ router.get('/cases/:post', function(req, res, next) {
   if (fs.existsSync("public/cases/es_ES/posts/"+post+".json")) {
     data.post=jsonfile.readFileSync("public/cases/es_ES/posts/"+post+".json");
   }
-  console.log(data.post.academy_posts);
   data.post.academy = {};
   for(var i in data.post.academy_posts){
     var academy_post = data.post.academy_posts[i];
-    console.log("public/academy/es_ES/posts/"+academy_post+".json");
     if (fs.existsSync("public/academy/es_ES/posts/"+academy_post+".json")) {
-      console.log(academy_post);
       data.post.academy[academy_post]=jsonfile.readFileSync("public/academy/es_ES/posts/"+academy_post+".json");
-      console.log(data.post.academy[academy_post]);
     }
 
   }
@@ -97,15 +91,11 @@ router.get('/academy/:post', function(req, res, next) {
   if (fs.existsSync("public/academy/es_ES/posts/"+post+".json")) {
     data.post=jsonfile.readFileSync("public/academy/es_ES/posts/"+post+".json");
   }
-  console.log(data.post.academy_posts);
   data.post.academy = {};
   for(var i in data.post.academy_posts){
     var academy_post = data.post.academy_posts[i];
-    console.log("public/academy/es_ES/posts/"+academy_post+".json");
     if (fs.existsSync("public/academy/es_ES/posts/"+academy_post+".json")) {
-      console.log(academy_post);
       data.post.academy[academy_post]=jsonfile.readFileSync("public/academy/es_ES/posts/"+academy_post+".json");
-      console.log(data.post.academy[academy_post]);
     }
   }
   res.render('academy/post.pug', data);
