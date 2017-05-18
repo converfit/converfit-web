@@ -3,7 +3,7 @@ extends layout
 block content
 
   section(class="cover imagebg height-80 image--light cover bg--secondary")
-    div(class="background-image-holder hidden-xs" style="background: url('/assets/img/promo-1.jpg'); opacity: 1;")
+    div(class="background-image-holder" style="background: url('/assets/img/promo-1.jpg'); opacity: 1;")
       img(alt="background" src="/assets/img/promo-1.jpg")
     div(class="container")
       div(class='row')
@@ -12,6 +12,13 @@ block content
             span(class="inline-block typed-text typed-text--cursor" data-typed-strings="tu portada, tus categorías, tu menú, tu contenido, tus popups, toda tu web")
           p Cada persona que visita tu web es diferente, lo que es atractivo para unos puede no serlo para otros. Entonces ¿porqué ofrecer a todos el mismo contenido?
           p(class='lead') Identifica y agrupa a tus usuarios para entregarles el contenido que más les interesa.
+          div(class="modal-instance block")
+            div(class="video-play-icon video-play-icon--sm modal-trigger")
+            span
+              strong ¡Mira nuestro video! &nbsp;&nbsp;&nbsp;60 Segundillos
+                div(class="modal-container")
+                  div(class="modal-content bg-dark" data-width="60%" data-height="60%")
+                    iframe(src="https://www.youtube.com/embed/AihqCZ_Y08U?autoplay=1" allowfullscreen="allowfullscreen")
           hr(class='short')
           div(class='row')
             div(class='col-sm-10 col-md-10 text-center')
