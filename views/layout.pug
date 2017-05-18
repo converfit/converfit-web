@@ -51,7 +51,7 @@ html
       var appPath = "#{appPath}";
 
   body
-    
+    a(name='start')
     div(class='nav-container')
       div(class='bar bar--sm visible-xs')
         div(class='container')
@@ -229,6 +229,8 @@ html
                 div(class='col-sm-12 text-center')
                   span(class="type--fine-print") © 2017 Converfit Team&nbsp;
 
+    a(class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active")
+      i(class="stack-interface stack-up-open-big")
     script(src='/assets/js/jquery-3.1.1.min.js')
     script(src='/assets/js/flickity.min.js')
     script(src='/assets/js/easypiechart.min.js')
