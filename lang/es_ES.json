@@ -10,11 +10,6 @@
     "signup_button" : "Registrarse"
   },
   "footer" : {
-    "demoform_title" : "Solicita tu demostración Online",
-    "demoform_placeholder" : "Correo Electrónico",
-    "demoform_button" : "Solicitar demo",
-    "demoform_info" : "Creando una cuenta, aceptas nuestros&nbsp;",
-    "demoform_terms" : "términos y condiciones",
     "offices_title" : "DÓNDE ESTAMOS",
     "contact_title" : "CONTACTO",
     "contact_email" : "info@converfit.com",
@@ -36,20 +31,24 @@
     "content" : "Identifica y agrupa a tus usuarios para entregarles el contenido que más les interesa.",
     "video_call" :"¡Mira nuestro video!&nbsp;&nbsp;&nbsp;60 Segundillos",
     "video_id" : "AihqCZ_Y08U",
+    "email" : "Correo Electrónico"
+  },
+  "request_demo" : {
+    "title" : "Solicita una demo Online",
+    "subtitle" : "<small>¿Quieres ver Conver.fit en acción con tu website? Solicita una demo y nuestro equipo de Rockstars de la Conversión te hará un fantástico tour de cómo Conver.fit podría llegar a hacer que tu página sea la repera.</small>",
     "email" : "Correo Electrónico",
-    "demo_content" : "¿Quieres ver Conver.fit en acción con tu website? Solicita una demo y nuestro equipo de Rockstars de la Conversión te hará un fantástico tour de cómo Conver.fit podría llegar a hacer que tu página sea la repera.",
-    "demo_button" : "Solicita una demo",
-    "demo_terms" : "Solicitando una demo, aceptas nuestros <a href='/terms-of-service/' target='_blank'>Términos de Uso</a>"
+    "button" : "Solicita una demo",
+    "warning" : "Solicitando una demo, aceptas nuestros <a href='/terms-of-service/' target='_blank'>Términos de Uso</a>"
   },
   "cases" : {
     "title" : "Casos de uso",
-    "subtitle" : "Descubre cómo converfit te puede ayudar a convertir más",
+    "subtitle" : "Descubre cómo Conver.fit te puede ayudar a convertir más",
     "button" : "Ver casos de uso",
     "back" : "Volver al listado de casos de uso"
   },
   "academy" : {
-    "title" : "Converfit Academy",
-    "subtitle" : "Descubre en nuestra academia lo que puede hacer Converfit por tu web con ejemplos concretos.",
+    "title" : "Conver.fit Academy",
+    "subtitle" : "Descubre en nuestra academia lo que puede hacer Conver.fit por tu web con ejemplos concretos.",
     "button" : "Acceder a Academy",
     "back_to_accademy" : "Volver a Academy"
   },
@@ -110,24 +109,24 @@
   },
   "partners" : {
     "title" : "¿Profesional o agencia?",
-    "subtitle" : "Únete a Converfit Partners",
+    "subtitle" : "Únete a Conver.fit Partners",
     "content" : "Aumenta tu cartera de productos y ayuda a tus clientes a conseguir sus objetivos de conversión y ventas.",
     "join_button" : "Únete a nuestros partners",
     "why_title" : "¿Profesional o agencia?",
     "why_block_1_title" : "Amplia tu cartera",
-    "why_block_1_content" : "Con Converfit añadirás una potente plataforma de marketing de segmentación con la que personalizar las experiencias de compra y uso de tus clientes. Añadirás valor y servicios a tu cartera de productos.",
+    "why_block_1_content" : "Con Conver.fit añadirás una potente plataforma de marketing de segmentación con la que personalizar las experiencias de compra y uso de tus clientes. Añadirás valor y servicios a tu cartera de productos.",
     "why_block_2_title" : "Soporte exclusivo",
     "why_block_2_content" : "Contamos con un equipo de expertos en marketing, diseño y programación. Nuestra “Conversion Force”. Todos ellos tienen experiencia provada en mejora de conversiones en páginas web, landings y tiendas online. Estarán a tu disposición para cualquier duda o consulta que puedas tener sobre campañas de tus clientes.",
     "why_block_3_title" : "Estrategias de conversión",
     "why_block_3_content" : "Nuestra Conversion Force analiza las campañas que han tenido más éxito y las comparte en la BD de conocimiento común.",
     "why_block_4_title" : "Planes Multicuenta",
-    "why_block_4_content" : "Sin comisiones ocultas. Siendo partner de Converfit podrás beneficiarte del uso multicuenta. Podrás añadir infinitos clientes a los planes de precios hasta superar su límite. Por otro lado, no os cobramos más de lo que se establece en los planes.",
+    "why_block_4_content" : "Sin comisiones ocultas. Siendo partner de Conver.fit podrás beneficiarte del uso multicuenta. Podrás añadir infinitos clientes a los planes de precios hasta superar su límite. Por otro lado, no os cobramos más de lo que se establece en los planes.",
 
     "join_block_title" : "¿Quieres empezar una relación?",
     "join_block_subtitle" : "Con mucha conversión y cenas románticas a la luz de la luna...",
     "join_block_button" : "Quiero ser partner",
     "singup" : {
-      "title" : "Únete a Converfit Partners",
+      "title" : "Únete a Conver.fit Partners",
       "subtitle" : "Rellena el formulario y nuestro equipo se pondrá en contacto contigo",
       "fullname" : "Nombre // Agencia",
       "email" : "Correo Electrónico",
@@ -154,8 +153,8 @@
     "button" : "Ir a Calendly"
   },
   "plugins" : {
-    "title" : "",
-    "subtitle" : "",
+    "title" : "Nuestros Plugins",
+    "subtitle" : "Integra Conver.fit de forma más sencilla con uno de nuestros plugins",
     "coming_soon" : "Coming Soon",
     "download" : "Download",
     "go_to_marketplace" : "Go to Marketplace",
@@ -181,7 +180,7 @@
     },
     "no_plugin" : {
       "title" : "¿No encuentras tu plugin o tienes alguna duda?",
-      "subtitle" : "Nuestro equipo te ayudará a instalar Converfit en tu sitio web contacta<br/>con nostros en info@converfit.com y te echaremos una mano :)",
+      "subtitle" : "Nuestro equipo te ayudará a instalar Conver.fit en tu sitio web contacta<br/>con nostros en info@converfit.com y te echaremos una mano :)",
       "button" : "Enviar email"
     }
   },

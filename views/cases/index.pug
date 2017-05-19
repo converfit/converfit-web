@@ -14,7 +14,7 @@ block content
         each post, index in posts
           div(class="col-sm-6 col-md-4 text-center m-b-40")
             img(src=post.preview_img class='width-100 m-b-10')
-            h3 !{post.preview_title} 
+            h3(class='m-b-10') !{post.preview_title} 
             p !{post.preview_subtitle}
             div
               a(class="btn btn--primary" href="/cases/"+index)

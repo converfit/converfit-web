@@ -10,11 +10,6 @@
     "signup_button" : "Sign up"
   },
   "footer" : {
-    "demoform_title" : "Book a demo online",
-    "demoform_placeholder" : "E-mail",
-    "demoform_button" : "Book a demo",
-    "demoform_info" : "Creating an account, you are accepting&nbsp;",
-    "demoform_terms" : "terms and conditions",
     "offices_title" : "OUR OFFICES",
     "contact_title" : "CONTACT",
     "contact_email" : "info@converfit.com",
@@ -36,10 +31,14 @@
     "content" : "Analize your audience, group them & provide different content to each user.",
     "video_call"  :"Check our video!&nbsp;&nbsp;&nbsp;60 Seconds",
     "video_id" : "AihqCZ_Y08U",
-    "email" : "Email",
-    "demo_content" : "Would you like to see Conver.fit in action in your website? Book a demo & our Conversion Rockstars will show you an amazing walkthrough just for you.",
-    "demo_button" : "Book a Demo",
-    "demo_terms" : "Booking a demo, you accept our <a href='/terms-of-service/' target='_blank'>Terms policy</a>"
+    "email" : "Email"
+  },
+  "request_demo" : {
+    "title" : "Solicita una demo Online",
+    "subtitle" : "<small>¿Quieres ver Conver.fit en acción con tu website? Solicita una demo y nuestro equipo de Rockstars de la Conversión te hará un fantástico tour de cómo Conver.fit podría llegar a hacer que tu página sea la repera.</small>",
+    "email" : "Correo Electrónico",
+    "button" : "Solicita una demo",
+    "warning" : "Solicitando una demo, aceptas nuestros <a href='/terms-of-service/' target='_blank'>Términos de Uso</a>"
   },
   "cases" : {
     "title" : "Use Cases",
