@@ -7,14 +7,11 @@ block content
     div(class="container pos-vertical-center")
       div(class="row")
         div(class="col-sm-12 col-md-10")
-          h1(class='color--primary') Redireccinando a Calendly...
-          h2
-            | Te estamos llevando a nuestro servicio
-            br
-            | de reserva de demos personalizadas
-          p(class="lead") Puede llevar unos segundos
+          h1(class='color--primary') !{lang.calendly.title}
+          h2 !{lang.calendly.subtitle}
+          p(class="lead") !{lang.calendly.content}
           a(class="btn btn--primary type--uppercase" href="https://calendly.com/converfit-pablo/demo/")
-            span(class="btn__text") Ir a Calendly
+            span(class="btn__text") !{lang.calendly.button}
 
 block scripts
   script.

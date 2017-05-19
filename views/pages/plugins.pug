@@ -7,58 +7,43 @@ block content
     div(class='container')
       div(class='row')
         div(class='col-sm-12')
-          h1 Nuestros Plugins
-          p(class="lead") Utiliza nuestros plugins para integrar de forma más sencilla Converfit en tu web
+          h1 !{lang.plugins.title}
+          p(class="lead") !{lang.plugins.subtitle}
   section(class="")
     div(class="row")
       div(class="col-md-3 text-center")
-        img(src="/assets/img/magento_icon.png")
-        h3 Magento
-        p(class="small")
-          | Nuestro plugin es compatible
-          br
-          | para Magento a partir de 1.8
+        img(src=lang.plugins.magento.img)
+        h3 !{lang.plugins.magento.title}
+        p(class="small") !{lang.plugins.magento.subtitle}
         a(class="btn btn--secondary type--uppercase" href="#")
-          span(class="btn__text") Pronto Disponible
+          span(class="btn__text") !{lang.plugins.coming_soon}
+        
       div(class="col-md-3 text-center")
-        img(src="/assets/img/wordpress_icon.png")
-        h3 Wordpress
-        p(class="small")
-          | Nuestro plugin es compatible
-          br
-          | para Wordpress a partir de 4.5
+        img(src=lang.plugins.wordpress.img)
+        h3 !{lang.plugins.wordpress.title}
+        p(class="small") !{lang.plugins.wordpress.subtitle}
         a(class="btn btn--primary type--uppercase" target="_blank" href="/plugins/wp_converfit.zip")
-          span(class="btn__text") Descargar
+          span(class="btn__text") !{lang.plugins.download}
       div(class="col-md-3 text-center")
-        img(src="/assets/img/prestashop_icon.png")
-        h3 Prestashop
-        p(class="small")
-          | Nuestro plugin es compatible
-          br
-          | para Prestashp 1.6 y 1.7
+        img(src=lang.plugins.prestashop.img)
+        h3 !{lang.plugins.prestashop.title}
+        p(class="small") !{lang.plugins.prestashop.subtitle}
         a(class="btn btn--primary type--uppercase" target="_blank" href="/plugins/prestashop_converfit.zip")
-          span(class="btn__text") Descargar
+          span(class="btn__text") !{lang.plugins.download}
       div(class="col-md-3 text-center")
-        img(src="/assets/img/shopify_icon.png")
-        h3 Shopify
-        p(class="small")
-          | Nuestro plugin totalmente compatible
-          br
-          | con cualquier versión de Shopify
-
+        img(src=lang.plugins.shopify.img)
+        h3 !{lang.plugins.shopify.title}
+        p(class="small") !{lang.plugins.shopify.subtitle}
         a(class="btn btn--secondary type--uppercase" href="#")
-          span(class="btn__text") Pronto Disponible
+          span(class="btn__text") !{lang.plugins.coming_soon}
       div(class="col-md-3 text-center")
 
   section(class='text-center')
     div(class='container')
       div(class='row')
         div(class='col-sm-12')
-          h2 ¿No encuentras tu plugin o tienes alguna duda?
-          p(class="lead")
-           | Nuestro equipo te ayudará a instalar Converfit en tu sitio web contacta
-           br
-           | con nostros en info@converfit.com y te echaremos una mano :)
+          h2 !{lang.plugins.no_plugin.title}
+          p(class="lead") !{lang.plugins.no_plugin.subtitle}
           div
             a(class="btn btn--secondary type--uppercase" href="mailto:info@converfit.com")
-              span(class="btn__text") Enviar email
+              span(class="btn__text") !{lang.plugins.no_plugin.button}

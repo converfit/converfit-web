@@ -2,32 +2,29 @@ extends layout
 
 block content
 
-  section(class="cover imagebg height-80 image--light cover bg--secondary")
+  section(class="cover imagebg image--light cover bg--secondary")
     div(class="background-image-holder" style="background: url('/assets/img/promo-1.jpg'); opacity: 1;")
       img(alt="background" src="/assets/img/promo-1.jpg")
     div(class="container")
       div(class='row')
         div(class='col-sm-10 col-md-8')
-          h2 Personaliza&nbsp;
-            span(class="inline-block typed-text typed-text--cursor" data-typed-strings="tu portada, tus categorías, tu menú, tu contenido, tus popups, toda tu web")
-          p Cada persona que visita tu web es diferente, lo que es atractivo para unos puede no serlo para otros. Entonces ¿porqué ofrecer a todos el mismo contenido?
-          p(class='lead') Identifica y agrupa a tus usuarios para entregarles el contenido que más les interesa.
+          h2 !{lang.index.title}
+          p !{lang.index.subtitle}
+          p(class='lead') !{lang.index.content}
           div(class="modal-instance block")
             div(class="video-play-icon video-play-icon--sm modal-trigger")
             span
-              strong ¡Mira nuestro video! &nbsp;&nbsp;&nbsp;60 Segundillos
+              strong !{lang.index.video_call}
                 div(class="modal-container")
                   div(class="modal-content bg-dark" data-width="60%" data-height="60%")
-                    iframe(src="https://www.youtube.com/embed/AihqCZ_Y08U?autoplay=1" allowfullscreen="allowfullscreen")
-          hr(class='short')
+                    iframe(src="https://www.youtube.com/embed/"+lang.index.video_id+"?autoplay=1" allowfullscreen="allowfullscreen")
           div(class='row')
-            div(class='col-sm-10 col-md-10 text-center')
+            div(class='col-sm-10 col-md-10')
               form(class='lead-form')
-                input(type="email" class='email' name="Correo Electrónico" placeholder="Correo Electrónico" required)
-                button(type="submit" class="btn btn--primary") Crear Cuenta
-                span(class="type--fine-print")
-                  | Creando una cuenta, aceptas nuestros&nbsp;
-                  a(href="/terms-of-service/" target='_blank') Términos de Uso
+                p !{lang.index.demo_content}
+                input(type="email" class='email' name="email" placeholder=lang.index.email required)
+                button(type="submit" class="btn btn--primary") !{lang.index.demo_button}
+                span(class="type--fine-print") !{lang.index.demo_terms}
   section(class="text-center")
     div(class="container")
       div(class="row")
