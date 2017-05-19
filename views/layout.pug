@@ -32,6 +32,7 @@ html
     link(href='/assets/css/lightbox.min.css' rel='stylesheet' type='text/css' media='all')
     link(href='/assets/css/flickity.css' rel='stylesheet' type='text/css' media='all')
     link(href='/assets/css/iconsmind.css' rel='stylesheet' type='text/css' media='all')
+    link(href='/assets/vendor/flag-icon-css/css/flag-icon.min.css' rel='stylesheet' type='text/css' media='all')
     link(href='/assets/css/theme.css' rel='stylesheet' type='text/css' media='all')
     link(href='/assets/css/spaces.css' rel='stylesheet' type='text/css' media='all')
     link(href='/assets/css/custom.css' rel='stylesheet' type='text/css' media='all')
@@ -89,6 +90,13 @@ html
                     a(href='/plugins/') #{lang.menu.plugins}
                   li
                     a(href='/partners/') #{lang.menu.partners}
+                  li
+                    a(href='?lang=es_ES')
+                      span(class='flag-icon flag-icon-es')
+                  li
+                    a(href='?lang=en_US')
+                      span(class='flag-icon flag-icon-gb')
+
               div(class='bar__module hidden-xs text-right')
                 a(class="btn btn--sm type--uppercase" href="https://conver.fit/app/access/login")
                   span(class='btn__text') #{lang.menu.access_button}

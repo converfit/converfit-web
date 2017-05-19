@@ -1,6 +1,6 @@
 {
   "name": "converfit-web",
-  "version": "0.0.0",
+  "version": "17.5.0",
   "private": true,
   "scripts": {
     "start": "nodemon app.js"
@@ -12,6 +12,7 @@
     "express": "~4.14.0",
     "morgan": "~1.7.0",
     "pug": "~2.0.0-beta6",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "jsonfile": "~3.0.0"
   }
 }
