@@ -27,9 +27,9 @@
   },
   "index" : {
     "title" : "Personaliza&nbsp;<span class='inline-block typed-text typed-text--cursor' data-typed-strings='toda tu web, tu portada, tus categorías, tu menú, tu contenido, tus popups'></span>",
-    "subtitle" : "Cada persona que visita tu web es diferente, lo que es atractivo para unos puede no serlo para otros. Entonces ¿porqué ofrecer a todos el mismo contenido?",
+    "subtitle" : "Cada persona que visita tu web es diferente, lo que es atractivo para unos puede no serlo para otros. Entonces ¿por qué ofrecer a todos el mismo contenido?",
     "content" : "Identifica y agrupa a tus usuarios para entregarles el contenido que más les interesa.",
-    "video_call" :"¡Mira nuestro video!&nbsp;&nbsp;&nbsp;60 Segundillos",
+    "video_call" :"¡Mira nuestro vídeo!&nbsp;&nbsp;&nbsp;60 Segundillos",
     "video_id" : "AihqCZ_Y08U",
     "email" : "Correo Electrónico"
   },
@@ -48,13 +48,13 @@
   },
   "academy" : {
     "title" : "Conver.fit Academy",
-    "subtitle" : "Descubre en nuestra academia lo que puede hacer Conver.fit por tu web con ejemplos concretos.",
+    "subtitle" : "Descubre en nuestra academia lo que puede hacer Conver.fit por tu web con ejemplos concretos",
     "button" : "Acceder a Academy",
     "back_to_accademy" : "Volver a Academy"
   },
   "pricing" : {
     "title" : "Planes y Precios",
-    "subtitle" : "Selecciona el tipo de plan que más se ajusta a tu negocio.",
+    "subtitle" : "Selecciona el tipo de plan que más se ajusta a tu negocio",
     "month" : "/mes",
     "select_plan" : "Selecciona este Plan",
 
@@ -180,7 +180,7 @@
     },
     "no_plugin" : {
       "title" : "¿No encuentras tu plugin o tienes alguna duda?",
-      "subtitle" : "Nuestro equipo te ayudará a instalar Conver.fit en tu sitio web contacta<br/>con nostros en info@converfit.com y te echaremos una mano :)",
+      "subtitle" : "Nuestro equipo te ayudará a instalar Conver.fit en tu sitio web. Contacta<br/>con nosotros en info@converfit.com y te echaremos una mano :)",
       "button" : "Enviar email"
     }
   },

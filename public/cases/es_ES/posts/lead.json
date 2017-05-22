@@ -16,7 +16,7 @@
     "segments":{
       "preview_img" : "/cases/es_ES/img/segmen_test.png",
       "preview_title" : "<b>Segmentación</b>",
-      "preview_subtitle" : "¿Quiénes son los leads que más captas? ¿De dónde vienen? ¿Qué les interesa? Descubre dónde sabes captar y <b>¡poténcialo!</b> ¿Preparado para una estrategia captación (casi) perfecta?",
+      "preview_subtitle" : "¿Quiénes son los leads que más captas? ¿De dónde vienen? ¿Qué les interesa? Descubre dónde sabes captar y <b>¡poténcialo!</b> ¿Preparado para una estrategia de captación (casi) perfecta?",
       "img" : "/cases/es_ES/img/segmentacion.png",
       "title" : "<b>Segmentación</b>",
       "subtitle" : "DESCUBRE A TUS LEADS, PERO A LOS DE VERDAD",
@@ -25,16 +25,16 @@
     "tests" : {
       "preview_img" : "/cases/es_ES/img/testab_test.png",
       "preview_title" : "<b>Tests de Mejora</b>",
-      "preview_subtitle" : "No bases tus decisiones en leyendas urbanas. Formulario con email, sin el nombre, que el botón sea grande. Mejora tu formulario de captación para que sea invencible",
+      "preview_subtitle" : "No bases tus decisiones en leyendas urbanas. Formulario con email, sin el nombre, que el botón sea grande. Mejora tu formulario de captación para que sea irresistible",
       "img" : "/cases/es_ES/img/testmejoraicono.png",
       "title" : "<b>Tests de Mejora</b>",
       "subtitle" : "¿Y SI TUS LEADS NO SON PEREZOSOS?",
-      "content" : "<p>¿Los formularios largos o cortos? Que no te convenzan…, básate en la propia experiencia de tus visitas y descubre la forma exitosa de convertirlos en leads útiles.</p><p>Es hora de que controles tu web y reconozcas qué cambios suponen una mejora sustancial de tus resultados.</p><p>Porque lo que funciona en un sector en particular no tiene porqué funcionar en tu área de negocio.</p>"
+      "content" : "<p>¿Los formularios largos o cortos? Que no te convenzan…, básate en la propia experiencia de tus visitas y descubre la forma exitosa de convertirlos en leads útiles.</p><p>Es hora de que controles tu web y reconozcas qué cambios suponen una mejora sustancial de tus resultados.</p><p>Porque lo que funciona en un sector en particular no tiene por qué funcionar en tu área de negocio.</p>"
     },
     "customization" : {
       "preview_img" : "/cases/es_ES/img/personaliz_test.png",
       "preview_title" : "<b>Personalización</b>",
-      "preview_subtitle" : "¿Te imaginas que el fomulario cambia dependiendo del tipo de usuario que accede? No es lo mismo captarlos con un texto estático que con un texto dinámico que se adapte a cada potencial cliente.",
+      "preview_subtitle" : "¿Te imaginas que el fomulario cambia dependiendo del tipo de usuario que accede? No es lo mismo captarlos con un texto estático que con un texto dinámico que se adapte a cada potencial cliente",
       "img" : "/cases/es_ES/img/pers_test_def.png",
       "title" : "<b>Personalización</b>",
       "subtitle" : "PORQUE NO TODOS LOS LEADS SON IGUALES",
