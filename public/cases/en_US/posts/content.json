@@ -1,49 +1,49 @@
 {
-  "preview_img" : "/cases/es_ES/img/preview_grey.png",
-  "preview_title" : "Web de Contenido",
-  "preview_subtitle" : "Blog, revista online o red social que obtiene ingresos por publicidad",
-  "preview_button" : "Ver Caso de Uso",
+  "preview_img" : "/cases/es_ES/img/content.png",
+  "preview_title" : "Content Web",
+  "preview_subtitle" : "Blog, online magazine or social network that gets revenue from advertising",
+  "preview_button" : "See Use Case",
 
-  "img" : "/academy/es_ES/img/grey.jpg",
-  "text_color" : "black",
-  "title" : "Converfit para Páginas de Contenido",
-  "subtitle" : "No es lo mismo un usuario activo que un FAN",
+  "img" : "/cases/es_ES/img/content_fondo_def.png",
+  "text_color" : "white",
+  "title" : "Conver.fit for Content Webs",
+  "subtitle" : "<b>An active user is not the same as a FAN</b>",
   
   
-  "features_title" : "La suite de marketing para convertir más",
-  "features_subtitle" : "Tú solo, sin depender de nadie",
+  "features_title" : "The Marketing Suite to increase your conversion rate",
+  "features_subtitle" : "Do it yourself, not depending on anyone",
 
   "features":{
     "segments":{
-      "preview_img" : "/cases/es_ES/img/preview_grey.png",
-      "preview_title" : "Segmentación",
-      "preview_subtitle" : "No es lo mismo tener una visita esporádica que una visita que se muere por entrar todos los días. ¡Descubre quiénes son!",
-      "img" : "/cases/es_ES/img/grey.jpg",
-      "title" : "Segmentación",
-      "subtitle" : "¿VISITAS O FANS?",
-      "content" : "<p>Necesitas conocer quiénes son tus lectores, necesitas que vuelvan una y otra vez a tu contenido, necesitas que se conviertan en FANS de web. Conociendo quiénes son podrás planificar una estrategia de contenidos útil con buenos resultados. No te la juegues, descubre tus puntos fuertes y aumenta la recurrencia de cada usuario. Automatiza las visitas y ten tiempo suficiente para captar nuevos lectores. ¡Es la hora!</p>"
+      "preview_img" : "/cases/es_ES/img/segmen_test.png",
+      "preview_title" : "<b>Segmentation</b>",
+      "preview_subtitle" : "It is not the same a sporadic visit than a user that is dying to read your content daily. Find out who they are!",
+      "img" : "/cases/es_ES/img/segmentacion.png",
+      "title" : "<b>Segmentation</b>",
+      "subtitle" : "VISITS OR FANS?",
+      "content" : "<p></br>You need to know who your readers are, making them to come back to your content again and again, you need them to become FANS. Let's plan a useful content strategy with good results!</p><p>Don’t put all your eggs in one basket! Discover your strengths and increase the recurrence of each user.</p><p>Automate the visits and have enough time to attract new readers. <b>Let's do it!</b></p>"
     },
     "tests" : {
-      "preview_img" : "/cases/es_ES/img/preview_grey.png",
-      "preview_title" : "Tests de Mejora",
-      "preview_subtitle" : "Conoce las palabras mágicas que convierten a una visita normal en un lector aférrimo que espera con ansia tus actualizaciones",
-      "img" : "/cases/es_ES/img/grey.jpg",
-      "title" : "Tests de Mejora",
-      "subtitle" : "CONSIGUE QUE TUS VISITAS VUELVAN CADA DÍA",
-      "content" : "<p>Es tu contenido, tú sabes lo que le interesa a tu audiencia a grandes rasgos pero ahora puedes hilar mucho más fino incluyendo tests de mejora en tu website. Encuentra, a tiempo real, qué banner, qué pestaña o qué tipo de post hace que tu audiencia vuelva cada día.</p><p>Conseguir que tu público visite tu web con asiduidad solo va a traerte cosas buenas :)</p><p>Con Converfit es fácil e intuituvo. Puedes hacerlo tú mismo, sin necesidad de contratar a un experto.</p>"
+      "preview_img" : "/cases/es_ES/img/testab_test.png",
+      "preview_title" : "<b>A/B Tests</b>",
+      "preview_subtitle" : "You must know the magic words which make a normal visitor into an ardent reader who looks forward to your updates",
+      "img" : "/cases/es_ES/img/testmejoraicono.png",
+      "title" : "<b>A/B Tests</b>",
+      "subtitle" : "MAKE YOUR VISITS COME BACK DAILY",
+      "content" : "<p>It's your content, you know what your audience is interested in broadly but now you can spin a lot thinner including enhancement tests on your website. Find, in real time, what banner, what tab or what kind of post makes your audience come back every day. </ P> <p> Getting your audience to visit your website regularly will only bring you good things :)</p><p>With Conver.fit is easy, do it yourself with us!</p>"
     },
     "customization" : {
-      "preview_img" : "/cases/es_ES/img/preview_grey.jpg",
-      "preview_title" : "Personalización",
-      "preview_subtitle" : "Si supieras que un usuario solo lee tus posts de un tema en particular, ¿por qué no vas a mostrarle el contenido que le interesa directamente?",
-      "img" : "/cases/es_ES/img/grey.jpg",
-      "title" : "Tests de Mejora",
-      "subtitle" : "CONSIGUE QUE TUS VISITAS VUELVAN CADA DÍA",
-      "content" : "<p>Es muy fácil fiarse de las teorías de otros acerca del poder de las palabras, las palabras que más convierten y los temas más interesantes. Pero sabemos, a ciencia cierta, que lo que es útil para unos, no lo es para otros. Modifica tu web para cada usuario, muéstrale los temas que de verdad le interesan y gánate la confianza de ellos. No es lo mismo que las visitas de tu usuario sean de 2” que de 2’. Te mereces una mayor recurrencia y lo sabes.</p>"
+      "preview_img" : "/cases/es_ES/img/personaliz_test.png",
+      "preview_title" : "<b>Customization</b>",
+      "preview_subtitle" : "If you knew a user only read your posts for a particular topic, why not show this interesting content for such user directly?",
+      "img" : "/cases/es_ES/img/pers_test_def.png",
+      "title" : "<b>Customization</b>",
+      "subtitle" : "MAGIC WORDS? ONLY YOURS",
+      "content" : "<p>It is very easy to trust other people's theories about the power of words, the words that make the most, and the most interesting topics.</p><p>But we know, for sure, that what is useful for someone is not for others. Modify your website for each user, show him the topics that really interest him and earn their trust. It is not the same as the visits of your user are 2 seconds than 2 minutes.</p><p>You deserve a greater recurrence and you know it.</p>"
     }
   },
-  "academy_title" : "No es lo mismo contarlo que vivirlo",
-  "academy_subtitle" : "Aprende cómo aumentar tu conversión hasta el infinito",
+  "academy_title" : "Let's do it together!",
+  "academy_subtitle" : "Learn how to increase your conversion rate to infinity",
   "academy_posts":[
     "influencers",
     "snipers",

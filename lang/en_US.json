@@ -28,17 +28,17 @@
   "index" : {
     "title" : "Customize&nbsp;<span class='inline-block typed-text typed-text--cursor' data-typed-strings='all your website, your home page, your categories, your menu, your content, your promotions'></span>",
     "subtitle" : "Each person who visits your site is different, what suits for ones don't suit for others so... why display always the same website?",
-    "content" : "Analize your audience, group them & provide different content to each user.",
+    "content" : "Analyze your audience, group them and provide different content to each user.",
     "video_call"  :"Check our video!&nbsp;&nbsp;&nbsp;60 Seconds",
     "video_id" : "AihqCZ_Y08U",
     "email" : "Email"
   },
   "request_demo" : {
-    "title" : "Solicita una demo Online",
-    "subtitle" : "<small>¿Quieres ver Conver.fit en acción con tu website? Solicita una demo y nuestro equipo de Rockstars de la Conversión te hará un fantástico tour de cómo Conver.fit podría llegar a hacer que tu página sea la repera.</small>",
-    "email" : "Correo Electrónico",
-    "button" : "Solicita una demo",
-    "warning" : "Solicitando una demo, aceptas nuestros <a href='/terms-of-service/' target='_blank'>Términos de Uso</a>"
+    "title" : "Book a demo",
+    "subtitle" : "<small>Do you want to see Conver.fit in action with your website? Book a demo and our Conversion Rockstars Team will give you a great tour of how Conver.fit could optimize your site and your users experience</small>",
+    "email" : "Email",
+    "button" : "Book a demo",
+    "warning" : "Booking a demo,you are accepting our <a href='/terms-of-service/' target='_blank'>Terms and Conditions</a>"
   },
   "cases" : {
     "title" : "Use Cases",
@@ -109,24 +109,24 @@
   },
   "partners" : {
     "title" : "Professional or agency?",
-    "subtitle" : "Join Converfit Partners",
+    "subtitle" : "Join Conver.fit Partners",
     "content" : "Increase you product portfolio and help your clients to achieve their conversion and sales goals.",
     "join_button" : "Join our partners",
     "why_title" : "¿Professional o agency?",
     "why_block_1_title" : "Increase your portfolio",
-    "why_block_1_content" : "With Converfit, you will have a powerful marketing platform to customize the user experiences of your clients. Let's increase value and services to your product portfolio.",
+    "why_block_1_content" : "With Conver.fit, you will have a powerful marketing platform to customize the user experiences of your clients. Let's increase value and services to your product portfolio.",
     "why_block_2_title" : "Exclusive Support",
-    "why_block_2_content" : "We have a team of experts in marketing, design and development. Our Conversion Force. They all have proven experience in increasing conversion rates on websites, landings pages and ecommerce. They will be available for you if you may have any question about your clients' campaigns.",
+    "why_block_2_content" : "We have a team of experts in marketing, design and development: our Conversion Force. They all have proven experience in increasing conversion rates on websites, landings pages and ecommerce. They will be available for you if you may have any question about your clients' campaigns.",
     "why_block_3_title" : "Conversion Strategies",
     "why_block_3_content" : "Our Conversion Force analyses the most successfull campaigns and they share them in the DB of shared knowledge.",
     "why_block_4_title" : "Multi-Account Plan",
-    "why_block_4_content" : "No hidden fees. As a Converfit Partner, you can benefit from multi-account. You can only one account to manage several brands.",
+    "why_block_4_content" : "No hidden fees. As a Conver.fit Partner, you can benefit from multi-account plan. You can only have one account to manage several brands.",
 
     "join_block_title" : "Do you want to start a relationship with us?",
     "join_block_subtitle" : "With lots of conversion and romantic dinners in the light of the moon...",
     "join_block_button" : "I want to be a partner",
     "singup" : {
-      "title" : "Join Converfit Partners",
+      "title" : "Join Conver.fit Partners",
       "subtitle" : "Fill out the form and our team will contact you",
       "fullname" : "Name // Agency",
       "email" : "E-mail",
@@ -138,19 +138,19 @@
     }
   },
   "error" : {
-    "title" : "Lo sentimos pero ha ocurrido un error inesperado",
-    "subtitle" : "Lo mejor es que vuelvas a la página principal y hagas como si nada hubiese ocurrido...",
-    "back_button" : "Volver a la página principal",
+    "title" : "Sorry, an unexpected error occurred",
+    "subtitle" : "Return to the home page and do as if nothing had happened ...",
+    "back_button" : "Return to the home page",
     "404" : {
-      "title" : "Lo sentimos pero la página que estás buscando no está disponible.",
-      "subtitle" : "Lo mejor es que vuelvas a la página principal y hagas como si nada hubiese ocurrido..."
+      "title" : "Sorry but the page you are looking for is not available.",
+      "subtitle" : "Return to the home page and do as if nothing had happened..."
     }
   },
   "calendly" : {
-    "title" : "Redireccinando a Calendly...",
-    "subtitle" : "Te estamos llevando a nuestro servicio<br/>de reserva de demos personalizadas",
-    "content" : "Puede llevar unos segundos",
-    "button" : "Ir a Calendly"
+    "title" : "Redirecting to Calendly...",
+    "subtitle" : "We are taking you to our platform to book your demo",
+    "content" : "It may take a few seconds",
+    "button" : "Go to Calendly"
   },
   "plugins" : {
     "title" : "",
@@ -161,27 +161,27 @@
     "magento" : {
       "img" : "/assets/img/magento_icon.png",
       "title" : "Magento",
-      "subtitle" : "Nuestro plugin es compatible<br/>con Magento a partir de 1.8"
+      "subtitle" : "Our plugin works<br/>with Magento from 1.8"
     },
     "wordpress" : {
       "img" : "/assets/img/wordpress_icon.png",
       "title" : "Wordpress",
-      "subtitle" : "Nuestro plugin es compatible<br/>con Wordpress a partir de 4.5"
+      "subtitle" : "Our plugin works<br/>with Wordpress from 4.5"
     },
     "prestashop" : {
       "img" : "/assets/img/prestashop_icon.png",
       "title" : "Prestashop",
-      "subtitle" : "Nuestro plugin es compatible<br/>con Prestashp 1.6 y 1.7"
+      "subtitle" : "Our plugin works<br/>with Prestashop 1.6 and 1.7"
     },
     "shopify" : {
       "img" : "/assets/img/shopify_icon.png",
       "title" : "Shopify",
-      "subtitle" : "Nuestro plugin es compatible<br/>con cualquier versión de Shopify"
+      "subtitle" : "Our plugin works<br/>with any version of Shopify"
     },
     "no_plugin" : {
-      "title" : "¿No encuentras tu plugin o tienes alguna duda?",
-      "subtitle" : "Nuestro equipo te ayudará a instalar Converfit en tu sitio web contacta<br/>con nostros en info@converfit.com y te echaremos una mano :)",
-      "button" : "Enviar email"
+      "title" : "¿Don't you find your plugin or do you have any question?",
+      "subtitle" : "Our team will help you to install Conver.fit on your website. Contact<br/>with us at info@converfit.com and we will help you :)",
+      "button" : "Send an email"
     }
   },
   "cookies_policy" : {

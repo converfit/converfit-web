@@ -1,0 +1,18 @@
+{
+  "preview_img" : "/academy/es_ES/img/formulario_perf_pre.png",
+  "preview_title" : "Los leads no son tontos. Y lo sabes.</br>Quieres sus datos. Y lo sabes",
+  "preview_subtitle" : "Empieza a personalizar tus formularios y consigue que tus leads te regalen sus datos",
+  "preview_button" : "LEER MÁS",
+  "img" : "/academy/es_ES/img/formulario_inside.png",
+  "text_color" : "black",
+  "title" : "¿Rellenarías tu formulario? Yo no",
+  "subtitle" : "O, quizás, sí",
+  "content" : "<p><b>¿Cuántas veces te has roto la cabeza para encontrar el texto y el tipo de formulario perfecto</b>?<p><p>Seamos sinceros. Encontrar el formulario perfecto para captar los datos de tus leads no es tarea fácil. Cuando los leads se enfrentan a un formulario con infinitos campos obligatorios, la opción de salir corriendo de tu página se multiplica por infinito. Y es que <b>los leads se las saben todas</b>.</p><p>Imagínate que te damos la opción de implementar un <b>formulario dinámico</b>, es decir,  mostrarle a cada lead un formulario diferente dependiendo del tipo de dispositivo que esté utilizando para llegar a web. Ha llegado el momento de ser claros. Si estamos navegando con nuestro móvil y nos enfrentamos a un formulario con infinitos campos a cumplimentar, la probabilidad de que salgamos corriendo es infinita. Y lo que queremos conseguir es que nuestras visitas nos regalen sus datos. </p><h4><b>¿Cómo hacerlo con Conver.fit en 2 clicks?</h4></b><p><b>➤ [1 Click]</b></br>Primero tenemos que conocer qué dispositivo utiliza nuestro usuario así que nuestra primera tarea será segmentar nuestra audiencia en relación con el dispositivo.</p><br/><p><b>➤ [2 Click]</b></br>Una vez tengamos esos datos claros y definidos, personalizaremos el formulario para cada tipo de usuario: para los que naveguen con su smartphone, su formulario será más pequeño y así más cómodo para rellenar; para los que lleguen desde una tablet, añadiremos algún campo más para que puedas tener más info y, para los que nos visiten desde un ordenador, sacaremos la artillería pesada con un formulario verdaderamente completo.</p><p>Ahora sí: la probabilidad de que te regalen sus datos es mucho más alta. <b>PROMETIDO</b>.</br>Cada uno se merece un trato único y exclusivo para él. Porque necesitas sus datos. Y lo sabes.</p><p></p><p><b>¿Y si tu canal de captación de leads es una campaña de emailing y la segmentas por sectores profesionales, por ejemplo, y se le muestra un tipo de formulario con unos textos distintos a cada uno de ellos?</b></p>",
+  "academy_title" : "¿Quieres saber un poco más?",
+  "academy_subtitle" : "Aumenta tu conversión, hombre",
+  "academy_posts" : [
+    "influencers",
+    "test_ab_imagen",
+    "oferta_nuevos"
+  ]
+}

@@ -1,49 +1,49 @@
 {
-  "preview_img" : "/cases/es_ES/img/preview_grey.png",
-  "preview_title" : "Tienda Online",
-  "preview_subtitle" : "Tienda online que vende productos tanto físicos como digitales",
-  "preview_button" : "Ver Caso de Uso",
+  "preview_img" : "/cases/es_ES/img/ecommerce.png",
+  "preview_title" : "eCommerce",
+  "preview_subtitle" : "Online Shop that sells physical and digital products",
+  "preview_button" : "See Use Case",
 
-  "img" : "/academy/es_ES/img/grey.jpg",
+  "img" : "/cases/es_ES/img/ecommerce_fondo_def.png",
   "text_color" : "black",
-  "title" : "Converfit para e-commerces",
-  "subtitle" : "Descubre cómo aumentar tus ventas en un 20% (o más)",
+  "title" : "Conver.fit for e-commerces",
+  "subtitle" : "Find out how to increase your sales in 20% (or more)",
   
   
-  "features_title" : "La suite de marketing para vender más",
-  "features_subtitle" : "Tú solo, sin depender de nadie",
+  "features_title" : "The Marketing Suite to sell more",
+  "features_subtitle" : "Do it yourself, not depending on anyone",
 
   "features":{
     "segments":{
-      "preview_img" : "/cases/es_ES/img/preview_grey.png",
-      "preview_title" : "Segmentación",
-      "preview_subtitle" : "¿Conoces a tus compradores? Saber es poder. Descubre tu punto fuerte y débil y prepara estrategias de conversión perfectas.",
-      "img" : "/cases/es_ES/img/grey.jpg",
-      "title" : "Segmentación",
-      "subtitle" : "CONOCE TUS PUNTOS FUERTES Y ¡ATACA!",
-      "content" : "<p>Sácale partido a la segmentación de tus clientes, conoce dónde tienes un mayor potencial de crecimiento y potencia tus ventas desde ahora mismo. Ahora que ya conoces tu punto fuerte, ¡aprovéchalo!</p><p>Extrae conclusiones reales y útiles de tu estrategia de marketing: inbound marketing, campaña de influencers, social ads, SEM, emailing. Clasifica a tu audiencia y optimiza tu ecommerce de una forma rápida y sencilla.</p>"
+      "preview_img" : "/cases/es_ES/img/segmen_test.png",
+      "preview_title" : "<b>Segmentation</b>",
+      "preview_subtitle" : "Do you know your buyers? Knowledge is power. Discover your strength and weakness and prepare perfect conversion strategies.",
+      "img" : "/cases/es_ES/img/segmentacion.png",
+      "title" : "<b>Segmentation</b>",
+      "subtitle" : "RECOGNIZE YOUR STRONG POINTS AND ATTACK!",
+      "content" : "<p>Take advantage of the segmentation of your customers, know where you have the greatest potential and boost your sales right now.</p><p>Now that you know your strength, take advantage of it! Extract real and useful conclusions from your marketing strategy: inbound marketing, influencers campaign, social ads, SEM, emailing.</p><p>Classify your audience and optimize your ecommerce quickly and easily.</p>"
     },
     "tests" : {
-      "preview_img" : "/cases/es_ES/img/preview_grey.png",
-      "preview_title" : "Tests de Mejora",
-      "preview_subtitle" : "En los detalles está la diferencia. Utiliza nuestros tests para modificar tu web y saber qué convierte más. ¡Prueba y acierta sin necesidad de un experto!",
-      "img" : "/cases/es_ES/img/grey.jpg",
-      "title" : "Tests de Mejora",
-      "subtitle" : "LO QUE LES FUNCIONA A OTROS, NO TIENE POR QUÉ FUNCIONARTE A TI",
-      "content" : "<p>¿Los botones verdes convierten más? Déjate de cuentos chinos y empieza a lanzar tests a tu elección y descubre qué elementos convierten más y cuáles menos.</p><p>No te bases en teorías de otros, descubre qué os funciona a ti y a tu audiencia y reconoce cuáles son los cambios que más ventas te generan.</p>"
+      "preview_img" : "/cases/es_ES/img/testab_test.png",
+      "preview_title" : "<b>A/B Test</b>",
+      "preview_subtitle" : "Details are such important. Use our tests to implement changes to your website and learn what converts more. Test and do it well by yourself!",
+      "img" : "/cases/es_ES/img/testmejoraicono.png",
+      "title" : "<b>A/B Test</b>",
+      "subtitle" : "WHAT WORKS FOR OTHERS, IT MAY NOT WORK FOR YOU",
+      "content" : "<p>Do green buttons convert more? Forget about the theories of others and start launching tests based on any criteria and find out which elements convert more and which less.</p><p>Let your data speak and be focused on what works for you and your audience and recognize the changes that generate more sales.</p>"
     },
     "customization" : {
-      "preview_img" : "/cases/es_ES/img/preview_grey.png",
-      "preview_title" : "Personalización",
-      "preview_subtitle" : "Ahora que ya conoces a tus usuarios, personaliza su experiencia y comprueba qué aumenta hasta el infinito tus ventas. No es lo mismo vender un poco que venderlo todo.",
-      "img" : "/cases/es_ES/img/grey.jpg",
-      "title" : "Tests de Mejora",
-      "subtitle" : "PORQUE NO TODOS COMPRAMOS DE LA MISMA MANERA",
-      "content" : "<p>Si ya conoces a tus usuarios, cuáles son puntos fuertes y cuáles son los débiles, ¿por qué no explotar toda esta información? Haz que tu web se modifique para cada usuario, como un camaleón. Personaliza tus ofertas, tus banners, tu carrito, etc., basándote en toda la información que ya sabes. No creas que es complicado, con Converfit podrás hacerlo de una forma sencilla sin depender de nadie.</p>"
+      "preview_img" : "/cases/es_ES/img/personaliz_test.png",
+      "preview_title" : "<b>Customization</b>",
+      "preview_subtitle" : "Personalize your user’s experience and find out what increases your sales. It is not the same to sell a little that to sell everything",
+      "img" : "/cases/es_ES/img/pers_test_def.png",
+      "title" : "<b>Customization</b>",
+      "subtitle" : "BECAUSE WE DO NOT ALL BUY THE SAME WAY",
+      "content" : "<p></br>If you already know your users, which are strengths and weaknesses, why don’t you use all this information?</p><p>Modify your website for each user, like a chameleon. Customize your offers, your banners, your cart, etc., based on all the information you already know.</p><p> It's not complicated, with Conver.fit you can do it in a simple way without depending on anyone.</p>"
     }
   },
-  "academy_title" : "No es lo mismo contarlo que vivirlo",
-  "academy_subtitle" : "Aprende cómo aumentar tu conversión hasta el infinito",
+  "academy_title" : "Let's do it together!",
+  "academy_subtitle" : "Learn how to increase your conversion rate to infinity",
   "academy_posts":[
     "influencers",
     "formulario_grande",

@@ -1,0 +1,18 @@
+{
+  "preview_img" : "/academy/es_ES/img/promo_new_preview.png",
+  "preview_title" : "Sí. Todos queremos descuentos.</br>De cualquier tipo.",
+  "preview_subtitle" : "Ya es hora de aprender a conquistar a tus clientes sin que se te vea el plumero, hombre.",
+  "preview_button" : "LEER MÁS",
+  "img" : "/academy/es_ES/img/promo_new_background.png",
+  "text_color" : "black",
+  "title" : "¿La promoción? Solo a los nuevos",
+  "subtitle" : "Y no. No somos una compañía telefónica.",
+  "content" : "<h4>¿Te imaginas ofrecer sólo a los nuevos clientes una oferta especial?</h4><p>Podemos diferenciar, a grandes rasgos, dos tipos de clientes: el que te conoce y te ha comprado y el cliente nuevo que acaba de llegar. Tu web, hasta ahora, siempre es igual. No reacciona ni varía en función del tipo de visita que reciba. Siempre es igual.</p> <p>Imagínate que, a partir de ahora, tu web se va adaptando al tipo de usuario que recibe. Llega un cliente que ya conoce tu ecommerce, llama a la puerta y entra a pasearse entre tus estanterías. Nada cambia. PERO imagínate que llega un cliente nuevo que no ha comprado nunca, se merece una bienvenida por todo lo alto, ¿no? Automáticamente, tu ecommerce le va a empezar a ofrecer descuentos y ofertas solo para él (y así forzar, un poco, la compra).</p><p>Seguro que crees que esto es difícil, muy difícil y sólo apto para super-corporaciones con equipos de marketing y ventas infinitos que llevan un año diseñando esa estrategia de venta… pues no, quítatelo de la cabeza. <b>Vamos a ello.</b></p><h4>¿Cómo hacerlo con Conver.fit en 3 clicks?</h4><p><b>[1 Click]</b></br> Para empezar, crearemos en nuestro manager un segmento que llamaremos, por ejemplo, “Prospección de clientes”. Ahora, a todos los enlaces que acompañen a esa prospección, solo tienes que añadirle la UTM: utm_segment=prospeccion_clientes.</p><p><b>[2 Click]</b></br>A continuación, es hora de crear una personalización de HTML de tu sitio web. Lo llamaremos “Descuento Prospección” (vamos a elegir un nombre que sea recordatorio que después ya sabes lo que pasa).</p><p><b>[3 Click]</b></br>Por último, añadiremos a la personalización ese banner lleno de colores con esa promoción molona que te has currado y el cuponazo “SOYNUEVOCLIENTE”.</p><p><b>¡LISTO!</b> Ya está tu ecommerce personalizado, los nuevos clientes disfrutarán de su descuento especial y los clientes antiguos ni se enterarán de esa promoción (en unos días ya lanzaremos una oferta solo para ellos, ¿no? Ya sabes hacerlo :) )</p><p>El último paso es el mejor: disfruta de cómo aumentas tus ventas en un 20% (o más) solo con un par de clicks.</p><p><h4>¿Lo hacemos juntos?</h4></p><p> Si quieres empezar a desarrollar estrategias de conversión tan molonas como esta, reserva una demo con nuestro equipo de expertos, te explicarán Conver.fit y te ayudarán a pensar un par de estrategias que se adapten a tu web como anillo al dedo.</p>",
+  "academy_title" : "¿Quieres saber un poco más?",
+  "academy_subtitle" : "Aumenta tu conversión, hombre",
+  "academy_posts":[
+    "test_ab_imagen",
+    "influencers",
+    "palabrotas"
+  ]
+}
