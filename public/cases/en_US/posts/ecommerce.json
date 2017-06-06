@@ -20,7 +20,7 @@
       "preview_subtitle" : "Do you know your buyers? Knowledge is power. Discover your strength and weakness and prepare perfect conversion strategies.",
       "img" : "/cases/es_ES/img/segmentacion.png",
       "title" : "<b>Segmentation</b>",
-      "subtitle" : "RECOGNIZE YOUR STRONG POINTS AND ATTACK!",
+      "subtitle" : "RECOGNIZE YOUR STRONGER POINTS AND ATTACK!",
       "content" : "<p>Take advantage of the segmentation of your customers, know where you have the greatest potential and boost your sales right now.</p><p>Now that you know your strength, take advantage of it! Extract real and useful conclusions from your marketing strategy: inbound marketing, influencers campaign, social ads, SEM, emailing.</p><p>Classify your audience and optimize your ecommerce quickly and easily.</p>"
     },
     "tests" : {
@@ -39,15 +39,15 @@
       "img" : "/cases/es_ES/img/pers_test_def.png",
       "title" : "<b>Customization</b>",
       "subtitle" : "BECAUSE WE DO NOT ALL BUY THE SAME WAY",
-      "content" : "<p></br>If you already know your users, which are strengths and weaknesses, why don’t you use all this information?</p><p>Modify your website for each user, like a chameleon. Customize your offers, your banners, your cart, etc., based on all the information you already know.</p><p> It's not complicated, with Conver.fit you can do it in a simple way without depending on anyone.</p>"
+      "content" : "<p></br>If you already know your users, what the strengths and weaknesses are, why don’t you use all this information?</p><p>Modify your website for each user, like a chameleon. Customize your offers, your banners, your cart, etc., based on all the information you already know.</p><p> It's not complicated, with Conver.fit you can do it in a simple way without depending on anyone.</p>"
     }
   },
   "academy_title" : "Let's do it together!",
   "academy_subtitle" : "Learn how to increase your conversion rate to infinity",
   "academy_posts":[
     "influencers",
-    "formulario_grande",
-    "snipers1"
+    "test_ab_imagen",
+    "oferta_nuevos"
   ]
 
 }

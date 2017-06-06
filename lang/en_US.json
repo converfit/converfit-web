@@ -26,7 +26,7 @@
     "supported_by" : "Supported by"
   },
   "index" : {
-    "title" : "Customize&nbsp;<span class='inline-block typed-text typed-text--cursor' data-typed-strings='all your website, your home page, your categories, your menu, your content, your promotions'></span>",
+    "title" : "Customize&nbsp;<span class='inline-block typed-text typed-text--cursor' data-typed-strings='your entire website, your home page, your categories, your menu, your content, your promotions'></span>",
     "subtitle" : "Each person who visits your site is different, what suits for ones don't suit for others so... why display always the same website?",
     "content" : "Analyze your audience, group them and provide different content to each user.",
     "video_call"  :"Check our video!&nbsp;&nbsp;&nbsp;60 Seconds",
@@ -35,26 +35,26 @@
   },
   "request_demo" : {
     "title" : "Book a demo",
-    "subtitle" : "<small>Do you want to see Conver.fit in action with your website? Book a demo and our Conversion Rockstars Team will give you a great tour of how Conver.fit could optimize your site and your users experience</small>",
+    "subtitle" : "<small>Do you want to see Conver.fit in action on your website? Book a demo and our Conversion Rockstars Team will give you a great tour of how Conver.fit could optimize your site and your users' experience</small>",
     "email" : "Email",
     "button" : "Book a demo",
     "warning" : "Booking a demo,you are accepting our <a href='/terms-of-service/' target='_blank'>Terms and Conditions</a>"
   },
   "cases" : {
     "title" : "Use Cases",
-    "subtitle" : "Discover how Converfit can help you to increase your conversion rate",
+    "subtitle" : "Discover how Conver.fit can help you to increase your conversion rate",
     "button" : "View use cases",
     "back" : "Back to use cases"
   },
   "academy" : {
-    "title" : "Converfit Academy",
-    "subtitle" : "Discover in our academy what Converfit can do for your web with concrete examples.",
-    "read_more" : "Read More",
-    "back_to_accademy" : "Back to Academy"
+    "title" : "Conver.fit Academy",
+    "subtitle" : "Discover what Conver.fit can do for your website with concrete examples",
+    "button" : "Academy",
+    "back" : "Back to Academy"
   },
   "pricing" : {
     "title" : "Plans and Pricing",
-    "subtitle" : "Choose the type of plan which fits better with your business.",
+    "subtitle" : "Choose the type of plan which fits better with your business",
     "month" : "/month",
     "select_plan" : "Select this Plan",
 
@@ -110,17 +110,17 @@
   "partners" : {
     "title" : "Professional or agency?",
     "subtitle" : "Join Conver.fit Partners",
-    "content" : "Increase you product portfolio and help your clients to achieve their conversion and sales goals.",
+    "content" : "Increase your product portfolio and help your costumers to achieve their conversion and sales goals",
     "join_button" : "Join our partners",
-    "why_title" : "¿Professional o agency?",
+    "why_title" : "Professional o agency?",
     "why_block_1_title" : "Increase your portfolio",
-    "why_block_1_content" : "With Conver.fit, you will have a powerful marketing platform to customize the user experiences of your clients. Let's increase value and services to your product portfolio.",
+    "why_block_1_content" : "With Conver.fit, you will have a powerful marketing platform to customize the experience of your customers. Let's increase value and services to your product portfolio.",
     "why_block_2_title" : "Exclusive Support",
-    "why_block_2_content" : "We have a team of experts in marketing, design and development: our Conversion Force. They all have proven experience in increasing conversion rates on websites, landings pages and ecommerce. They will be available for you if you may have any question about your clients' campaigns.",
+    "why_block_2_content" : "We have a team of experts in marketing, design and development: our Conversion Force. They all have proven experience in increasing conversion rates on websites, landings pages and ecommerces. They will be available for you if you may have any question about your customers' campaigns.",
     "why_block_3_title" : "Conversion Strategies",
     "why_block_3_content" : "Our Conversion Force analyses the most successfull campaigns and they share them in the DB of shared knowledge.",
     "why_block_4_title" : "Multi-Account Plan",
-    "why_block_4_content" : "No hidden fees. As a Conver.fit Partner, you can benefit from multi-account plan. You can only have one account to manage several brands.",
+    "why_block_4_content" : "No hidden fees. As a Conver.fit Partner, you can benefit from multi-account plan. You can only have one account to manage several brands. You can add infinite customers to pricing plans to exceed your limit. On the other hand, we don’t charge you more than what is established in the plans.",
 
     "join_block_title" : "Do you want to start a relationship with us?",
     "join_block_subtitle" : "With lots of conversion and romantic dinners in the light of the moon...",
@@ -153,8 +153,8 @@
     "button" : "Go to Calendly"
   },
   "plugins" : {
-    "title" : "",
-    "subtitle" : "",
+    "title" : "Our Plugins",
+    "subtitle" : "Integrate Conver.fit more easily with one of our plugins",
     "coming_soon" : "Coming Soon",
     "download" : "Download",
     "go_to_marketplace" : "Go to Marketplace",
@@ -179,8 +179,8 @@
       "subtitle" : "Our plugin works<br/>with any version of Shopify"
     },
     "no_plugin" : {
-      "title" : "¿Don't you find your plugin or do you have any question?",
-      "subtitle" : "Our team will help you to install Conver.fit on your website. Contact<br/>with us at info@converfit.com and we will help you :)",
+      "title" : "Don't you find your plugin or do you have any question?",
+      "subtitle" : "Our team will help you to install Conver.fit on your website.<br/>Contact with us at info@converfit.com and we will help you :)",
       "button" : "Send an email"
     }
   },
