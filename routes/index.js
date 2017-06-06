@@ -13,23 +13,23 @@ var fs = require('fs');
 
 /**
  * Routes
- * 
+ *
  * /
  * /cases/
  * /cases/:post
  * /academy
  * /academy/:post
  * /:page
- * 
+ *
  */
 
 
 /**
  * Route
- * 
+ *
  * Home Page
  * /
- * 
+ *
  */
 
 router.get('/', function(req, res, next) {
@@ -46,7 +46,7 @@ router.get('/', function(req, res, next) {
  *
  * Cases Page
  * /cases/
- * 
+ *
  */
 
 router.get('/cases/', function(req, res, next) {
@@ -69,10 +69,10 @@ router.get('/cases/', function(req, res, next) {
 
 /**
  * Route
- * 
+ *
  * Cases Post Page
  * /cases/:post
- * 
+ *
  * @param {string} [post] slug post.
  */
 
@@ -101,10 +101,10 @@ router.get('/cases/:post', function(req, res, next) {
 
 /**
  * Route
- * 
+ *
  * Academy Page
  * /cases/:post
- * 
+ *
  */
 
 router.get('/academy', function(req, res, next) {
@@ -128,10 +128,10 @@ router.get('/academy', function(req, res, next) {
 
 /**
  * Route
- * 
+ *
  * Academy Post Page
  * /academy/:post
- * 
+ *
  * @param {string} [post] slug post.
  */
 
@@ -156,13 +156,37 @@ router.get('/academy/:post', function(req, res, next) {
   res.render('academy/post.pug', data);
 });
 
+/*
+* Route
+*
+* Landing Page
+* /landing/:post
+*
+* @param {string} [post] slug post.
+*/
+
+router.get('/landing/:post', function(req, res, next) {
+
+ var data = appconfig.pug;
+ data.lang = jsonfile.readFileSync("lang/"+req.lang+".json");
+ data.appPath = appconfig.appPath;
+ data.page = "landing";
+ data.post = {};
+ var post = req.params.post;
+ if (fs.existsSync("public/landing/"+req.lang+"/posts/"+post+".json")) {
+   data.post=jsonfile.readFileSync("public/landing/"+req.lang+"/posts/"+post+".json");
+ }
+ res.render('landing/index.pug', data);
+});
+
+
 
 /**
  * Route
- * 
+ *
  * Page
  * /:page
- * 
+ *
  * @param {string} [page] slug page.
  */
 

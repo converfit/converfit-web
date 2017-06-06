@@ -8,6 +8,21 @@
   color: white !important
 }
 
+.text-black p{
+  color: black !important
+}
+.text-black a{
+  color: black !important
+}
+
+.text-white p{
+  color: white !important
+}
+
+.text-white a{
+  color: white !important
+}
+
 p{
-  font-size: 18px;
+  font-size: 16px;
 }
