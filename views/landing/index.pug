@@ -1,19 +1,41 @@
 extends ../layout_empty
 block content
-  section(class="cover height-100 imagebg text-center")
+  section(class="imagebg image height-100")
     div(class="background-image-holder")
       img(alt="background" src=post.img)
-    div(class="container pos-vertical-center")
-      div(class="row")
-        div(class="col-sm-10 col-md-6 text-left m-t-20")
-          h2(class="text-"+post.text_color) !{post.title}
-          p(class="lead text-"+post.text_color) !{post.subtitle}
-          div(class="text-justify text-"+post.text_color) !{post.content}
-        div(class="col-sm-10 col-md-6 m-t-20")
-          h3(class="text-left text-"+post.text_color) !{post.form_title}
-          p(class="text-left text-"+post.text_color) !{post.form_subtitle}
-          form(class='lead-form')                
-            input(type="email" name="email" class='email' placeholder=lang.request_demo.email required)
-            button(type="submit" class="btn btn--primary type--uppercase")
-              span(class="btn__text") !{lang.request_demo.button}
-            div(class="m-t-10 text-right type--fine-print text-"+post.text_color) !{lang.request_demo.warning}
+    div(class="container")
+      -if (post.design === "2columns")
+        div(class="row")
+          div(class="col-sm-10 col-md-12 text-left")
+            h2(class="text-"+post.text_color) !{post.title}
+            p(class="lead text-"+post.text_color) !{post.subtitle}
+        div(class="row")
+          div(class="col-sm-10 col-md-6 text-left m-t-20")
+            div(class="text-justify text-"+post.text_color) !{post.content}
+          div(class="col-sm-10 col-md-6 m-t-20")
+            hr(class="short")
+            p(class="small text-left text-"+post.text_color) !{post.form_subtitle}
+            form(class='lead-form')                
+              input(type="email" name="email" class='email' placeholder=lang.request_demo.email required)
+              button(type="submit" class="btn btn--primary type--uppercase")
+                span(class="btn__text") !{lang.request_demo.button}
+              div(class="m-t-10 text-right type--fine-print text-"+post.text_color) !{lang.request_demo.warning}
+      -else if (post.design === "1column")
+        div(class="row")
+          div(class="col-sm-10 col-md-12 text-left")
+            h2(class="text-"+post.text_color) !{post.title}
+            p(class="lead text-"+post.text_color) !{post.subtitle}
+        div(class="row m-t-20")
+          div(class="col-sm-10 col-md-6 text-left")
+            div(class="text-justify text-"+post.text_color) !{post.content_1}
+          div(class="col-sm-10 col-md-6 text-left")
+            div(class="text-justify text-"+post.text_color) !{post.content_2}
+        hr(class="short")
+        div(class="row")
+          div(class="col-md-8")
+            p(class="small text-left text-"+post.text_color) !{post.form_subtitle}
+            form(class='lead-form')                
+              input(type="email" name="email" class='email' placeholder=lang.request_demo.email required)
+              button(type="submit" class="btn btn--primary type--uppercase")
+                span(class="btn__text") !{lang.request_demo.button}
+              div(class="m-t-10 text-left type--fine-print text-"+post.text_color) !{lang.request_demo.warning}

@@ -1,0 +1,9 @@
+{
+  "design" : "2columns",
+  "img" : "/landing/es_ES/img/grey.jpg",
+  "text_color" : "black",
+  "title" : "Lorem ipsum dolor sit amet, dolor sit amet",
+  "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adolor sit amet.",
+  "content" : "<img src='/cases/es_ES/img/personalizacion.png'/><p>Curabitur quis ligula a turpis maximus dapibus non eu sem. Aenean ut ante tellus. Etiam ut turpis at turpis dignissim mattis eget eget nulla. Nulla luctus sed eros tincidunt scelerisque. Nam dapibus eros tincidunt nisi iaculis pulvinar. Ut lectus tellus, rutrum ac eros id, condimentum accumsan est.</p><p>Nam vel enim tincidunt, interdum neque nec, lacinia urna. Pellentesque id ex ut urna rhoncus vestibulum. Curabitur ut massa a urna mollis pellentesque. Etiam aliquam sem at orci condimentum, quis tempor velit vestibulum. Proin iaculis accumsan ex vel consequat.</p>",
+  "form_subtitle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+}
