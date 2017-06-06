@@ -1,5 +1,4 @@
 /*! Place your custom styles here */
-
 .text-black{
   color: black !important
 }
@@ -25,4 +24,9 @@
 
 p{
   font-size: 16px;
+}
+.min-height-100{
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
 }
