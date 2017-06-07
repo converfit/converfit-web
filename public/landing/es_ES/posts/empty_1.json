@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "design" : "row_text_text_row_form",
   "img" : "/landing/es_ES/img/grey.jpg",
-=======
-  "design" : "1column",
-  "img" : "/landing/es_ES/img/pattern (13).png",
->>>>>>> 9c3215649680408017cf52eb54c8f0796af77dc7
   "logo_options" : "visible",
   "text_color" : "black",
   "title" : "<b>No tires más dinero</b>",
