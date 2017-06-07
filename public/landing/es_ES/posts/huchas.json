@@ -1,5 +1,5 @@
 {
-  "design" : "1column",
+  "design" : "row_textform",
   "img" : "/landing/es_ES/img/pattern (13).png",
   "logo_options" : "visible",
   "text_color" : "black",
