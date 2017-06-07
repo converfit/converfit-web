@@ -3,9 +3,9 @@
   "img" : "/landing/es_ES/img/grey.jpg",
   "logo_options" : "visible",
   "text_color" : "black",
-  "title" : "Lorem ipsum dolor sit amet, dolor sit amet",
-  "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adolor sit amet.",
-  "content_1" : "<img src='/cases/es_ES/img/personalizacion.png'/><p><i>Curabitur quis ligula a turpis maximus dapibus non eu sem.</i>",
-  "content_2" : "<p>Curabitur quis ligula a turpis maximus dapibus non eu sem. Curabitur quis ligula a turpis maximus dapibus non eu sem. Aenean ut ante tellus. Etiam ut turpis at turpis dignissim mattis eget eget nulla. Nulla luctus sed eros tincidunt scelerisque. Nam dapibus eros tincidunt nisi iaculis pulvinar. Ut lectus tellus, rutrum ac eros id, condimentum accumsan est.</p><p>Nam vel enim tincidunt, interdum neque nec, lacinia urna. Pellentesque id ex ut urna rhoncus vestibulum. Curabitur ut massa a urna mollis pellentesque. Etiam aliquam sem at orci condimentum, quis tempor velit vestibulum. Proin iaculis accumsan ex vel consequat. Etiam aliquam sem at orci condimentum, quis tempor velit vestibulum. Proin iaculis accumsan ex vel consequat.</p>",
+  "title" : "<b>Personaliza tu web, hombre</b>",
+  "subtitle" : "Aumenta hasta el infinito tu conversión",
+  "content_1" : "<img src='/cases/es_ES/img/testmejoraicono.png'/><p>Ponte las pilas, tus usuarios quieren un trato único ya</p>",
+  "content_2" : "<p></br>Personaliza la experiencia de tus usuarios y comprueba qué aumenta hasta el infinito tus ventas.</p><p><b>No es lo mismo vender un poco que venderlo todo</b></p><p>Te mereces aumentar tus ventas. Y lo sabes.</p>",
   "form_subtitle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 }
