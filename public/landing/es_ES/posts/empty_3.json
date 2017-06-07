@@ -1,0 +1,11 @@
+{
+  "design" : "1column",
+  "img" : "/landing/es_ES/img/formulario_inside.png",
+  "logo_options" : "visible",
+  "text_color" : "black",
+  "title" : "¡Que no te cuenten películas!",
+  "subtitle" : "Vendes poco. Y lo sabes.",
+  "content_1" : "<img src='/cases/es_ES/img/testmejoraicono.png'/><p><b>No es lo mismo vender un poco que venderlo todo</b></p>",
+  "content_2" : "<p></br>Los test a/b molan mucho pero la personalización es lo más y aumenta tus ventas en más de un 22%. No todos los usuarios compran de la misma manera y se merecen que personalices tu web, hombre.</p><p>Cada cliente compra de una manera diferente y tu web les está enseñando lo mismo a todos. Te mereces algo más. Se merecen algo más.</p><p>No pierdas más dinero. Empieza a personalizar tus ofertas, tus banners, tu carrito, tus imágenes. ¡Personalizar o morir!</p>",
+  "form_subtitle" : "Déjanos tu email y elige cuándo quieres que nuestra Conversion Force te enseñe sus trucos :)"
+}
