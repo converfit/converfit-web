@@ -1,0 +1,10 @@
+{
+  "design" : "row_textform",
+  "img" : "/landing/es_ES/img/fondolandingtasty.png",
+  "logo_options" : "visible",
+  "text_color" : "black",
+  "title" : "Los test a/b molan pero la personalización lo peta",
+  "subtitle" : "Dale a cada usuario lo suyo, lo que quiere",
+  "content" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/AihqCZ_Y08U?ecver=1' frameborder='0' allowfullscreen></iframe> Descubre cómo personalizar tu web con Conver.fit",
+  "form_subtitle" : "Déjanos tu email y elige cuándo quieres empezar a vender mucho más con Conver.fit :)"
+}

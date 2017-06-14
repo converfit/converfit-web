@@ -1,0 +1,10 @@
+{
+  "design" : "row_textform",
+  "img" : "/landing/es_ES/img/fondolanding.png",
+  "logo_options" : "visible",
+  "text_color" : "black",
+  "title" : "La personalización ya está aquí. Y lo está petando.",
+  "subtitle" : "Ya está bien de tirar el dinero",
+  "content" : "<iframe width='560' height='315' src='https://www.youtube.com/embed/AihqCZ_Y08U?ecver=1' frameborder='0' allowfullscreen></iframe><p>¡Que no te cuenten películas! Extrae tus propias conclusiones y ¡personaliza!",
+  "form_subtitle" : "Déjanos tu email y elige cuándo quieres empezar a vender mucho más con Conver.fit :)"
+}

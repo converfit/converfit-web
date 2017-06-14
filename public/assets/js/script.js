@@ -7,7 +7,7 @@ $(".lead-form").submit(function(e){
   var email = $('input.email', this).val();
 
   ga('send', 'event', 'signup', 'lead', email);
-  fbq('trackCustom', 'lead',{email:email});
+  fbq('track', 'Lead');
   //cf('conversion', '[landing]-request-demo');
 
   $(".form-error").remove();

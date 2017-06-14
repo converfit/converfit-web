@@ -24,10 +24,10 @@
     },
     "tests" : {
       "preview_img" : "/cases/es_ES/img/testab_test.png",
-      "preview_title" : "<b>Tests de Mejora</b>",
+      "preview_title" : "<b>Tests A/B</b>",
       "preview_subtitle" : "No bases tus decisiones en leyendas urbanas. Formulario con email, sin el nombre, que el botón sea grande. Mejora tu formulario de captación para que sea irresistible",
       "img" : "/cases/es_ES/img/testmejoraicono.png",
-      "title" : "<b>Tests de Mejora</b>",
+      "title" : "<b>Tests A/B</b>",
       "subtitle" : "¿Y SI TUS LEADS NO SON PEREZOSOS?",
       "content" : "<p>¿Los formularios largos o cortos? Que no te convenzan…, básate en la propia experiencia de tus visitas y descubre la forma exitosa de convertirlos en leads útiles.</p><p>Es hora de que controles tu web y reconozcas qué cambios suponen una mejora sustancial de tus resultados.</p><p>Porque lo que funciona en un sector en particular no tiene por qué funcionar en tu área de negocio.</p>"
     },

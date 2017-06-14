@@ -25,10 +25,10 @@
     },
     "tests" : {
       "preview_img" : "/cases/es_ES/img/testab_test.png",
-      "preview_title" : "Tests de Mejora",
+      "preview_title" : "Tests A/B",
       "preview_subtitle" : "En los detalles está la diferencia. Utiliza nuestros tests para modificar tu web y saber qué convierte más. ¡Prueba y acierta sin necesidad de un experto!",
       "img" : "/cases/es_ES/img/testmejoraicono.png",
-      "title" : "<b>Tests de Mejora</b>",
+      "title" : "<b>Tests de A/B</b>",
       "subtitle" : "BIENVENIDO AL FANTÁSTICO MUNDO DE LOS TEST A/B",
       "content" : "<p>¿Los botones verdes convierten más? Déjate de cuentos chinos y empieza a lanzar tests a tu elección. Descubre qué elementos convierten más y cuáles menos.</p><p>No te bases en teorías de otros, descubre qué os funciona a ti y a tu audiencia y reconoce cuáles son los cambios que más ventas te generan.</p><p>¡Lo que les funciona a otros, no tiene que funcionarte a ti!</p>"
     },

@@ -4,7 +4,7 @@ var events_flags = {};
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-if(document.location.hostname != "conver.fit"){
+if((document.location.hostname != "conver.fit") && (document.location.hostname != "www.conver.fit")){
   ga('create', 'UA-68365785-3', 'auto');
 }else{
   ga('create', 'UA-68365785-1', 'auto');
