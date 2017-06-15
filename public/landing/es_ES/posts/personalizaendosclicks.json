@@ -1,0 +1,10 @@
+{
+  "design" : "row_textform",
+  "img" : "/landing/es_ES/img/grey.png",
+  "logo_options" : "visible",
+  "text_color" : "black",
+  "title" : "Aumenta tu conversión en 2 clics",
+  "subtitle" : "Solo hay una forma de acertar con los clientes y no es de casualidad",
+  "content" : "<img src='/cases/es_ES/img/personalizacion.png'/><p>¡Que no te cuenten películas! Extrae tus propias conclusiones y ¡personaliza!",
+  "form_subtitle" : "Déjanos tu email y elige cuándo quieres empezar a vender mucho más con Conver.fit :)"
+}
