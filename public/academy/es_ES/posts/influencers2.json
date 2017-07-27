@@ -1,0 +1,18 @@
+{
+  "preview_img" : "/academy/es_ES/img/influe_preview2.png",
+  "preview_title" : "Los influencers están a la moda.</br>Pero tú vendes moda ",
+  "preview_subtitle" : "Descubre con que influencers deberías de trabajar para que tu tasa de conversión aumente",
+  "preview_button" : "Leer Más",
+  "img" : "/academy/es_ES/img/influe_inside2.png",
+  "text_color" : "black",
+  "title" : "Los influencers están a la moda",
+  "subtitle" : "¿y tú?",
+  "content" : "<p><b>Los influencers son un referente para muchas personas y son capaces de cambiar la opinión del público al que se dirigen. Suponen un gran aliado, ya que si consigues convencer a una persona influyente, tendrás mucho terreno ganado; pues pueden ayudarte a generar notoriedad entorno a tu marca o producto, a ganar credibilidad y repercusión y, por lo tanto, a vender más. Pero ¿Todos los influencers son buenos para tu marca?</b></p><p>Muchas veces sabemos que por que un influencers ha sacado nuestro producto en su blog, nuestras ventas de dicho producto crecen, pero,<b>¿Te imaginas poder saber cuál fue el porcentaje de ventas frente al número de usuarios que vieron el post del influencer?</p></b><h4><b>Con Conver.fit puedes hacerlo en solo dos clicks</h4></b><p><b>➤ [1 Click]</b></br> Para empezar, crearemos en nuestro manager un segmento que llamaremos, por ejemplo, “Influencer_2”.</p><p><b>➤ [2 Click]</b></br>Ahora, al influencer le facilitaremos el pixel que genera Conver.fit y que ubicará en su post para trackear a sus visitas.</p><p><b>¡LISTO!</b></br>El último paso es el mejor: disfruta de cómo crecen tus ventas en un 20% (o más) solo con un par de clicks.<p><h4><b>Teniendo claro los usuarios y las ventas, seguro que puedes empezar a tener una lista de tus TOP5 influencers.</b></h4></p><p><b>¿Lo hacemos juntos?</b></br>Si quieres empezar a desarrollar estrategias de conversión tan molonas como esta, reserva una demo con nuestro equipo de expertos, te explicarán Conver.fit y te ayudarán a pensar un par de estrategias que se adapten a tu web como anillo al dedo.</p>",
+  "academy_title" : "¿Quieres saber un poco más?",
+  "academy_subtitle" : "Aumenta tu conversión, hombre",
+  "academy_posts":[
+    "post_banner_especial",
+    "formulario_grande",
+    "test_ab_imagen"
+  ]
+}

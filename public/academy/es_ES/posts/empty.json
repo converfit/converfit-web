@@ -3,12 +3,16 @@
   "preview_title" : "",
   "preview_subtitle" : "",
   "preview_button" : "",
-  "img" : "/academy/es_ES/img/grey.jpg",
+  "img" : "/academy/es_ES/img/grey.png",
   "text_color" : "black",
   "title" : "",
   "subtitle" : "",
-  "content" : "<p></p>",
-  "academy_title" : "",
-  "academy_subtitle" : "",
-  "academy_posts":[]
+  "content" : "",
+  "academy_title" : "¿Quieres saber un poco más?",
+  "academy_subtitle" : "Aumenta tu conversión, hombre",
+  "academy_posts":[
+    "post_banner_especial",
+    "formulario_grande",
+    "test_ab_imagen"
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "design" : "row_textform",
-  "img" : "/landing/es_ES/img/grey.png",
+  "img" : "/landing/es_ES/img/macbook_paper_b.png",
   "logo_options" : "visible",
-  "text_color" : "black",
-  "title" : "Aumenta tu conversión en 2 clics",
-  "subtitle" : "Solo hay una forma de acertar con los clientes y no es de casualidad",
-  "content" : "<img src='/cases/es_ES/img/personalizacion.png'/><p>¡Que no te cuenten películas! Extrae tus propias conclusiones y ¡personaliza!",
-  "form_subtitle" : "Déjanos tu email y elige cuándo quieres empezar a vender mucho más con Conver.fit :)"
+  "text_color" : "white",
+  "title" : "<span class='text-white'>Con solo 2 clics&nbsp;<b><span class='inline-block typed-text typed-text--cursor text-white' data-typed-strings='aumentarás tus ventas, conocerás a tus clientes, incrementarás la conversión'</b>>",
+  "subtitle" : "",
+  "content" : "</br><p>Personaliza tu web para cada usuario y venderás mucho más.</br>Prometido.",
+  "form_subtitle" : "</br>Reserva tu DEMO online gratis y te enseñaremos cómo vender más con Conver.fit :)"
 }

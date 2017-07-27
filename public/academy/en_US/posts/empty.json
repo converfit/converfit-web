@@ -1,14 +1,18 @@
 {
-  "preview_img" : "/academy/es_ES/img/preview_grey.png",
+  "preview_img" : "/academy/en_US/img/preview_grey.png",
   "preview_title" : "",
   "preview_subtitle" : "",
   "preview_button" : "",
-  "img" : "/academy/es_ES/img/grey.jpg",
+  "img" : "/academy/en_US/img/grey.png",
   "text_color" : "black",
   "title" : "",
   "subtitle" : "",
   "content" : "<p></p>",
   "academy_title" : "",
   "academy_subtitle" : "",
-  "academy_posts":[]
+  "academy_posts":[
+    "influencers",
+    "test_ab_imagen",
+    "oferta_nuevos"
+  ]
 }
