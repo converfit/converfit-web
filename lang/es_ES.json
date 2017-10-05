@@ -7,7 +7,8 @@
     "plugins" : "Plugins",
     "partners" : "Partners",
     "access_button" : "Acceder",
-    "signup_button" : "Registrarse"
+    "signup_button" : "Registrarse",
+    "more_info" : "Más información"
   },
   "footer" : {
     "offices_title" : "DÓNDE ESTAMOS",
@@ -26,12 +27,83 @@
     "supported_by" : "Un apoyado por"
   },
   "index" : {
-    "title" : "Personaliza&nbsp;<span class='inline-block typed-text typed-text--cursor' data-typed-strings='toda tu web, tu portada, tus categorías, tu menú, tu contenido, tus popups'></span>",
-    "subtitle" : "Cada persona que visita tu web es diferente, lo que es atractivo para unos puede no serlo para otros. Entonces, ¿por qué ofrecer a todos el mismo contenido?",
+    "title" : "Duplica tus ventas</br>Enfócate a tus clientes",
+    "subtitle" : "Bienvenido al Marketing de Personalización.</br>Tu web es un catálogo online y los clientes tienen que buscar lo que quieren comprar. ¿Qué pasaría si se lo ofreces directamente? Descubre la tecnología que está cambiando la forma de vender online.",
     "content" : "Identifica y agrupa a tus usuarios para entregarles el contenido que más les interesa.",
     "video_call" :"¡Mira nuestro vídeo!&nbsp;&nbsp;&nbsp;60 Segundillos",
     "video_id" : "AihqCZ_Y08U",
-    "email" : "Correo Electrónico"
+    "email" : "Correo Electrónico",
+    "footer": "<p><small>un proyecto de</small><br/><img style='width:250px;' src='/assets/img/microsoft_ventures.png'/></p>",
+    "more_info": "¡Quiero saber más!"
+  },
+  "description" : {
+    "title" :"<h1>Personaliza&nbsp;<span class='inline-block typed-text typed-text--cursor' data-typed-strings='la homepage, el carrito, las categorías, las promociones, los popups'></span></h1>",
+    "subtitle" : "<p class='lead'></br></p>",
+    "content" : "",
+    "blocks" :[
+      {
+        "image" : "<img width='100px' src='/assets/img/083-tag.png'/>",
+        "title" : "<h3>Personaliza</h3>",
+        "content" : "<p>Personaliza la experiencia de tus usuarios y comprueba qué aumenta hasta el infinito tus ventas.</p>"
+      },
+      {
+        "image" : "<img width='100px' src='/assets/img/037-wifi.png'/>",
+        "title" : "<h3>Convierte<h3>",
+        "content" : "<p>Aumenta la tasa de conversión de tu ecommerce en un par de clics y prepárate para aumentar tus ventas </p>"
+      },
+      {
+        "image" : "<img width='100px'src='/assets/img/033-heart.png'/>",
+        "title" : "<h3>Fideliza<h3>",
+        "content" : "<p>En la recurrencia reside parte del éxito. Facilítales la compra a tus clientes y ¡a triunfar!</p>"
+      }
+    ]
+  },
+  "brands" : {
+    "title" :"<h1>Las mejores marcas ya personalizan</h1>",
+    "subtitle" : "<p class='lead'>¿Y tú? ¿Por qué no personalizas?</p>",
+    "content" : "<img src='/assets/img/logos_marcas.png'/>"
+  },
+  "benefits" : {
+    "title" :"<h1>Personaliza tu ecommerce con Conver.fit</h1>",
+    "subtitle" : "<p class='lead'></br></p>",
+    "content" : ".",
+    "blocks" :[
+      {
+        "image" : "<img width='75px' src='/assets/img/022-star.png'/>",
+        "title" : "<h3>Bloques dinámicos</h3>",
+        "content" : "<p>Ubicados en cualquier parte del website pudiendo personalizarse textos, imágenes y vídeo respetando el look & feel de tu web al 100%.</p>"
+      },
+      {
+        "image" : "<img width='75px' src='/assets/img/090-clock.png'/>",
+        "title" : "<h3>En tiempo real<h3>",
+        "content" : "<p>Los datos de tus usuarios y su comportamiento en tiempo real para tomar las decisiones exactas en el momento justo.</p>"
+      },
+      {
+        "image" : "<img width='75px' src='/assets/img/099-check.png'/>",
+        "title" : "<h3>Banners efectivos<h3>",
+        "content" : "<p>Cada cliente, su oferta. En un par de clics y con unos resultados de un aumento de más del 22% en la tasa de conversión.</p>"
+      },
+       {
+        "image" : "<img width='75px' src='/assets/img/055-pencil.png'/>",
+        "title" : "<h3>Implementación gratuita<h3>",
+        "content" : "<p>La implementación es un proceso muy fácil y similar a la implementación de Google Analytics. ¡Cuenta con nuestra ayuda!</p>"
+      },
+       {
+        "image" : "<img width='75px' src='/assets/img/004-telephone.png'/>",
+        "title" : "<h3>Asistencia técnica<h3>",
+        "content" : "<p>Conver.fit te asistirá durante tu experiencia para que le saques el máximo partido y aumentes tus ventas.</p>"
+      },
+      {
+        "image" : "<img width='75px' src='/assets/img/073-information.png'/>",
+        "title" : "<h3>Sin permanencia<h3>",
+        "content" : "<p>Sin compromisos. Puedes darte de baja cuando quieras pero estamos seguros de que no vas a querer dejarnos.</p>"
+      }
+    ]
+  },
+  "infinite" : {
+    "title" :"<h2>Aumenta tus ventas hasta el infinito en un par de clics</h2>",
+    "subtitle" : "<p class=''>¿Lo hacemos juntos?</p>",
+    "content" : ""
   },
   "request_demo" : {
     "title" : "Solicita una demo Online",
@@ -76,13 +148,14 @@
     "pro_accademy" : "Configuración & Academy",
 
     "enterprise_title" : "Enterprise",
-    "enterprise_price" : "1.999",
-    "enterprise_users" : "350.000 Usuarios/mes",
-    "enterprise_segments" : "∞ Segmentos",
-    "enterprise_tests" : "∞ Tests",
-    "enterprise_customs" : "∞ Personalizaciones",
-    "enterprise_accademy" : "⚡ Conversion Force ⚡",
-
+    "enterprise_price" : "Contacta",
+    "enterprise_users" : "Tu outsourcing de Conversión",
+    "enterprise_segments" : "Segmentación Automática",
+    "enterprise_tests" : "Testing continuo",
+    "enterprise_customs" : "Creación de Personalizaciones",
+    "enterprise_accademy" : "Facturación a éxito",
+    "enterprise_button" : "Reserva una demo",
+    
     "startup_section_title" : "¿Eres una startup?",
     "startup_section_subtitle" : "Si eres una Startup, disfruta durante nuestro plan para apoyarte :)",
     "startup_section_button" : "Ver plan Startup"

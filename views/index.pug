@@ -2,39 +2,83 @@ extends layout
 
 block content
 
-  section(class="cover imagebg image--light cover bg--secondary")
-    div(class="background-image-holder" style="background: url('/assets/img/promo-1.jpg'); opacity: 1;")
-      img(alt="background" src="/assets/img/promo-1.jpg")
-    div(class="container")
+  section(class="cover imagebg videobg cover bg--secondary" data-overlay="6")
+    video(autoplay loop muted)
+      source(src="/assets/video/loop_740.mov")
+      source(src="/assets/video/loop_740.mp4")
+
+    div(class="container" id="home-main-section")
       div(class='row')
-        div(class='col-sm-10 col-md-8')
-          h2 !{lang.index.title}
+        div(class='col-sm-10 col-md-8 col-md-offset-2 text-center')
+          h1 !{lang.index.title}
           p !{lang.index.subtitle}
-          p(class='lead') !{lang.index.content}
-          div(class="modal-instance block")
-            div(class="video-play-icon video-play-icon--sm modal-trigger")
-            span
-              strong !{lang.index.video_call}
-                div(class="modal-container")
-                  div(class="modal-content bg-dark" data-width="60%" data-height="60%")
-                    iframe(src="https://www.youtube.com/embed/"+lang.index.video_id+"?autoplay=1" allowfullscreen="allowfullscreen")
-          hr(class='short')
-          div(class='row m-t-0')
-            div(class='col-sm-10 col-md-8')
-              form(class='lead-form')
-                p !{lang.request_demo.subtitle}
-                input(type="email" class='email' name="email" placeholder=lang.index.email required)
-                button(type="submit" class="btn btn--primary") !{lang.request_demo.button}
-                span(class="type--fine-print") !{lang.request_demo.warning}
+          //
+            p(class='lead') !{lang.index.content}
+            div(class="modal-instance block")
+              div(class="video-play-icon video-play-icon--sm modal-trigger")
+              span
+                strong !{lang.index.video_call}
+                  div(class="modal-container")
+                    div(class="modal-content bg-dark" data-width="60%" data-height="60%")
+                      iframe(src="https://www.youtube.com/embed/"+lang.index.video_id+"?autoplay=1" allowfullscreen="allowfullscreen")
+            hr(class='short')
+            div(class='row m-t-0')
+              div(class='col-sm-10 col-md-8')
+                form(class='lead-form')
+                  p !{lang.request_demo.subtitle}
+                  input(type="email" class='email' name="email" placeholder=lang.index.email required)
+                  button(type="submit" class="btn btn--primary") !{lang.request_demo.button}
+                  span(class="type--fine-print") !{lang.request_demo.warning}
+          div(class="row")
+            div(class="col-md-6")
+              a(href="/calendly" class="btn btn-block btn--primary") !{lang.request_demo.button}
+
+            div(class="col-md-6")
+              a(href="/cases" class="btn btn-block btn--outline") !{lang.index.more_info}
+          div(class="m-t-50") !{lang.index.footer}
   section(class="text-center")
     div(class="container")
       div(class="row")
         div(class="col-sm-10 col-md-10")
-          h1 !{lang.cases.title}
-          p(class="lead") !{lang.cases.subtitle}
-          div
-            a(class="btn btn--primary" href="/cases")
-              span(class="btn__text type--uppercase") !{lang.cases.button}
+          div !{lang.description.title}
+          div !{lang.description.subtitle}
+          div(class="row")
+          each block, index in lang.description.blocks
+            div(class="col-sm-6 col-md-4 text-center m-b-40")
+              div(class="m-b-20") !{block.image}
+              div !{block.title}
+              div !{block.content}
+              
+  section(class="text-center bg--secondary")
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-10 col-md-10")
+          div !{lang.brands.title}
+          div !{lang.brands.subtitle}
+          div !{lang.brands.content}
+          
+  section(class="text-center")
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-10 col-md-10")
+          div !{lang.benefits.title}
+          div !{lang.benefits.subtitle}
+          each block, index in lang.benefits.blocks
+            div(class="col-sm-6 col-md-4 text-center m-b-40")
+              div(class="m-b-20") !{block.image}
+              div !{block.title}
+              div !{block.content}
+          div !{lang.benefits.content}
+  section(class="text-center bg--secondary")
+    div(class="container")
+      div(class="row")
+        div(class="col-sm-10 col-md-10")
+          div !{lang.infinite.title}
+          div !{lang.infinite.subtitle}
+          div !{lang.infinite.content}
+          div(class="m-t-50")
+            a(class="btn btn--primary" href="/calendly")
+              span(class="btn__text type--uppercase") !{lang.request_demo.button}
 
   
 block scripts

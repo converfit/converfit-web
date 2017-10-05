@@ -17,7 +17,7 @@ block content
               span(class="pricing__dollar small") €&nbsp;
               | #{lang.pricing.starter_price}
               small #{lang.pricing.month}
-            span #{lang.pricing.price_without_tax}
+            //span #{lang.pricing.price_without_tax}
             ul
               li 
                 b #{lang.pricing.starter_users}
@@ -34,7 +34,7 @@ block content
               span(class="pricing__dollar small") €&nbsp;
               | #{lang.pricing.pro_price}
               small #{lang.pricing.month}
-            span #{lang.pricing.price_without_tax}
+            //span #{lang.pricing.price_without_tax}
             ul
               li 
                 b #{lang.pricing.pro_users}
@@ -45,13 +45,11 @@ block content
             a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
               span(class="btn__text type--uppercase") #{lang.pricing.select_plan}
         div(class="col-sm-6 col-md-4")
-          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
+          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center bg--secondary")
             h2(class='color--primary') #{lang.pricing.enterprise_title}
             span(class="h2")
-              span(class="pricing__dollar small") €&nbsp;
               | #{lang.pricing.enterprise_price}
-              small #{lang.pricing.month}
-            span #{lang.pricing.price_without_tax}
+            //span #{lang.pricing.price_without_tax}
             ul
               li 
                 b #{lang.pricing.enterprise_users}
@@ -59,8 +57,8 @@ block content
               li #{lang.pricing.enterprise_tests}
               li #{lang.pricing.enterprise_customs}
               li #{lang.pricing.enterprise_accademy}
-            a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
-              span(class="btn__text type--uppercase") #{lang.pricing.select_plan}
+            a(class="btn btn--primary" href="https://conver.fit/calendly")
+              span(class="btn__text type--uppercase") #{lang.pricing.enterprise_button}
   
   section(class="text-center")
     div(class="container")

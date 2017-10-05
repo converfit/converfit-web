@@ -7,7 +7,8 @@
     "plugins" : "Plugins",
     "partners" : "Partners",
     "access_button" : "Login",
-    "signup_button" : "Sign up"
+    "signup_button" : "Sign up",
+    "more_info" : "Más información"
   },
   "footer" : {
     "offices_title" : "OUR OFFICES",
@@ -26,12 +27,83 @@
     "supported_by" : "Supported by"
   },
   "index" : {
-    "title" : "Customize&nbsp;<span class='inline-block typed-text typed-text--cursor' data-typed-strings='your entire website, your home page, your categories, your menu, your content, your promotions'></span>",
-    "subtitle" : "Each person who visits your site is different, what suits for ones don't suit for others so... why display always the same website?",
+    "title" : "Boost your sales</br>Focused on your clients",
+    "subtitle" : "Welcome to Personalization Marketing. </br> Your website is an online catalog and your customers waste time finding what they want to buy. What would happen if you offered it directly? Discover technology that is changing the way to sell online.",
     "content" : "Analyze your audience, group them and provide different content to each user.",
     "video_call"  :"Check our video!&nbsp;&nbsp;&nbsp;60 Seconds",
     "video_id" : "AihqCZ_Y08U",
-    "email" : "Email"
+    "email" : "Email",
+    "footer": "<p><small>supported by</small><br/><img style='width:250px;' src='/assets/img/microsoft_ventures.png'/></p>",
+    "more_info": "More info"
+  },
+  "description" : {
+    "title" :"<h1>Personalize&nbsp;<span class='inline-block typed-text typed-text--cursor' data-typed-strings='the homepage, the cart, the categories, the promotions, the popups'></span></h1>",
+    "subtitle" : "<p class='lead'></br></p>",
+    "content" : "",
+    "blocks" : [
+      {
+        "image" : "<img width='100px' src='/assets/img/083-tag.png'/>",
+        "title" : "<h3>Personalization</h3>",
+        "content" : "<p>Customize the experience of your customers and see what increases your sales to infinity.</p>"
+      },
+      {
+        "image" : "<img width='100px' src='/assets/img/037-wifi.png'/>",
+        "title" : "<h3>Conversion<h3>",
+        "content" : "<p>Increase the conversion rate of your ecommerce in a couple of clicks and get ready to increase your sales</p>"
+      },
+      {
+        "image" : "<img width='100px'src='/assets/img/033-heart.png'/>",
+        "title" : "<h3>Fidelity<h3>",
+        "content" : "<p>In the recurrence lies part of the success. Make it easy for your customers to succeed!</p>"
+      }
+    ]
+  },
+  "brands" : {
+    "title" :"<h1>The best brands are personalizing now</h1>",
+    "subtitle" : "<p class='lead'></br></p>",
+    "content" : "<img src='/assets/img/logos_marcas.png'/>"
+  },
+  "benefits" : {
+    "title" :"<h2>Personalize your ecommerce with Conver.fit</h2>",
+    "subtitle" : "<p class='lead'></br></p>",
+    "content" : "</br>",
+    "blocks" :[
+      {
+        "image" : "<img width='75px' src='/assets/img/022-star.png'/>",
+        "title" : "<h3>Dynamic Blocks</h3>",
+        "content" : "<p>We can customize texts, images and video respecting the look & feel of your website at 100%.</p>"
+      },
+      {
+        "image" : "<img width='75px' src='/assets/img/090-clock.png'/>",
+        "title" : "<h3>In real time<h3>",
+        "content" : "<p>Analyze your users' data and their behavior in real time to make the right decisions at the right time.</p>"
+      },
+      {
+        "image" : "<img width='75px' src='/assets/img/099-check.png'/>",
+        "title" : "<h3>Effective Banners<h3>",
+        "content" : "<p>Each customer, his offer. In a couple of clicks and increasing more than 22% in the conversion rate as a result.</p>"
+      },
+       {
+        "image" : "<img width='75px' src='/assets/img/055-pencil.png'/>",
+        "title" : "<h3>Free Implementation<h3>",
+        "content" : "<p>The implementation is a very easy process and similar to the implementation of Google Analytics.</p>"
+      },
+       {
+        "image" : "<img width='75px' src='/assets/img/004-telephone.png'/>",
+        "title" : "<h3>Technical Assistance<h3>",
+        "content" : "<p>Conver.fit will assist you during your experience to help you to boost your sales</p>"
+      },
+      {
+        "image" : "<img width='75px' src='/assets/img/073-information.png'/>",
+        "title" : "<h3>No permanence<h3>",
+        "content" : "<p>No commitments. You can unsubscribe anytime, but we're sure you will not want to leave us.</p>"
+      }
+    ]
+  },
+  "infinite" : {
+    "title" :"<h1>Boost your sales to infinity in a couple of clicks</h1>",
+    "subtitle" : "<p class='lead'></br>Let's do it together!</p>",
+    "content" : ""
   },
   "request_demo" : {
     "title" : "Book a demo",

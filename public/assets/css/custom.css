@@ -26,11 +26,11 @@ p{
   font-size: 16px;
 }
 
-li{
+#post-content li{
   font-size: 16px;
   margin-bottom: 1.85714286em;
 }
-ul{
+#post-content ul{
   list-style: disc;
   margin-left: 1.85714286em;
 }
@@ -38,4 +38,9 @@ ul{
   position: absolute;
   width: 100%;
   min-height: 100%;
+}
+
+#home-main-section h1{
+  font-weight: 600;
+  font-size:64px;
 }
