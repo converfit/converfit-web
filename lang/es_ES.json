@@ -36,6 +36,62 @@
     "footer": "<p><small>un proyecto de</small><br/><img style='width:250px;' src='/assets/img/microsoft_ventures.png'/></p>",
     "more_info": "¡Quiero saber más!"
   },
+  "smart" : {
+    "title" : "La Inteligencia Artificial al alcance de todos que mejora la visibilidad de tus productos",
+    "subtitle" : "El producto perfecto para tu cliente está en siempre en la última página del listado de productos. Descubre <b>Smart List</b> la inteligencia artificial que ordena los productos para darles la máxima visibilidad.",
+    "footer" : "<p><small>un proyecto de</small><br/><img style='width:250px;' src='/assets/img/microsoft_ventures.png'/></p>",
+    "laptops" : {
+      "title" : "Tus usuarios no pasan de la segunda página de productos",
+      "subtitle" : "Sabes que pierdes oportunidades de venta no mostrando a los usuarios los productos adecuados ¿No crees que es el momento de hacer algo",
+      "option_1_title" : "Tus listado ahora",
+      "option_1_content" : "<img class='m-b-0' src='/assets/img/laptop_1.png' width='150px'/><p>Analizando las preferencias de tus usuarios los productos que pueden probar más interes están ocultos en enormes listados.</p>",
+      "option_2_title" : "Un Listado inteligente",
+      "option_2_content" : "<img class='m-b-0' src='/assets/img/laptop_2.png' width='150px'/><p>Con <b>Smart List</b> los productos se ordenan dependiendo de las preferencias del usuarios maximizando las posibilidades de compra.</p>"
+    },
+    "tech" : {
+      "title" : "Tech to fall in love",
+      "subtitle" : "La IA especializada en descubrir los gustos de tus usuarios.",
+      "content_image" : "<img class='m-b-0' src='/assets/img/brain.png' width='500px'/>",
+      "content_title" : "Machine Learning aplicado a preferencias",
+      "content" : "<p class='small'>La tecnología de Smart List usando Machine Learning permite descubir las preferencias del usuario, almacenado patrones de comportamiento y crea dinámicamente un sistema de valoración de productos entrenado que le asegura un mayor impacto en el usuario.</p><p class='small'> Automáticamente extrae automáticamente toda la información y gestiona la más relevante para el usuario: patrón, colores, tallas, precio, descuento, etc...<p>"
+    },
+    "install" : {
+      "title" : "¿Instalación Complicada?",
+      "subtitle" : "Todos decimos que no te preocupes, qué no tiene casi tiempo de instalación. Smart List se intala con un plugin y empieza a funcionar desde el primer segundo. No te va a dar tiempo a bajar a por un café.",
+      "content_title" : "Módulo Plug & Play",
+      "content" : "<p class='small='>Sabemos que tu trabajo no es pasarte horas configurando nuestra tecnología, queremos ayudarte a vender y no hacer perder tiempo.Smart List se instala con un módulo completamente automático, una vez instalado no tendrás que configurar nada.</p><p class='small'> Smart List automáticamente extrae toda la información de los productos y pondera automáticamente qué es lo más importante para los usuarios a la hora de escoger productos.</p>"
+    },
+    "clients" : {
+      "title" : "Nuestros clientes",
+      "subtitle" : "La mejor forma de ver cómo personalizamos es que veas las tiendas de nuestros clientes.",
+      "content" : ""
+    },
+    "pricing" : {
+      "title" : "Planes de precios",
+      "subtitle" : "Quítatelo de la cabeza, la Inteligencia Artificial no tiene que ser cara",
+      "starter" : {
+        "price" : "19",
+        "limit" : "Hasta 50.000<br/>Usuarios/mes"
+      },
+      "regular" : {
+        "price" : "29",
+        "limit" : "Hasta 100.000<br/>Usuarios/mes"
+      },
+      "plus" : {
+        "price" : "59",
+        "limit" : "Hasta 250.000<br/>Usuarios/mes"
+      },
+      "enterprise" : {
+        "price" : "149",
+        "limit" : "Hasta 500.000<br/>Usuarios/mes"
+      },
+      "one_month_free" : ""
+    },
+    "contact" : {
+      "title" : "¿Tienes alguna duda?",
+      "subtitle" : "Si tienes alguna duda o quieres que nuestro fantástico equipo se ponga en contacto con nosotros ponte en contacto con nuestro equipo"
+    }
+  },
   "description" : {
     "title" :"<h1>Personaliza&nbsp;<span class='inline-block typed-text typed-text--cursor' data-typed-strings='la homepage, el carrito, las categorías, las promociones, los popups'></span></h1>",
     "subtitle" : "<p class='lead'></br></p>",
