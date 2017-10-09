@@ -58,6 +58,7 @@
     "install" : {
       "title" : "¿Instalación Complicada?",
       "subtitle" : "Todos decimos que no te preocupes, qué no tiene casi tiempo de instalación. Smart List se intala con un plugin y empieza a funcionar desde el primer segundo. No te va a dar tiempo a bajar a por un café.",
+      "content_image" : "<img class='m-b-0' src='/assets/img/prestashop_icon.png' width='300px'/>",
       "content_title" : "Módulo Plug & Play",
       "content" : "<p class='small='>Sabemos que tu trabajo no es pasarte horas configurando nuestra tecnología, queremos ayudarte a vender y no hacer perder tiempo.Smart List se instala con un módulo completamente automático, una vez instalado no tendrás que configurar nada.</p><p class='small'> Smart List automáticamente extrae toda la información de los productos y pondera automáticamente qué es lo más importante para los usuarios a la hora de escoger productos.</p>"
     },
@@ -70,22 +71,26 @@
       "title" : "Planes de precios",
       "subtitle" : "Quítatelo de la cabeza, la Inteligencia Artificial no tiene que ser cara",
       "starter" : {
+        "title" : "Starter",
         "price" : "19",
         "limit" : "Hasta 50.000<br/>Usuarios/mes"
       },
       "regular" : {
+        "title" : "Regular",
         "price" : "29",
         "limit" : "Hasta 100.000<br/>Usuarios/mes"
       },
       "plus" : {
+        "title" : "Plus",
         "price" : "59",
         "limit" : "Hasta 250.000<br/>Usuarios/mes"
       },
       "enterprise" : {
+        "title" : "Enterprise",
         "price" : "149",
         "limit" : "Hasta 500.000<br/>Usuarios/mes"
       },
-      "one_month_free" : ""
+      "one_month_free" : "Prueba 1 mes gratis"
     },
     "contact" : {
       "title" : "¿Tienes alguna duda?",
@@ -155,10 +160,6 @@
         "content" : "<p>Sin compromisos. Puedes darte de baja cuando quieras pero estamos seguros de que no vas a querer dejarnos.</p>"
       }
     ]
-  },
-  "smart" : {
-    "title" : "A partir de la segunda página nadie va a mirar tus productos",
-    "subtitle" : "Aplica el Machine Learning para reorganizar tus productos y mostrar los que más le interesantes primero"
   },
   "infinite" : {
     "title" :"<h2>Aumenta tus ventas hasta el infinito en un par de clics</h2>",
