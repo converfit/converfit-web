@@ -1,88 +1,139 @@
 extends ../layout
 
 block content
+  section(class="imagebg videobg bg--secondary" data-overlay="6")
+    video(autoplay loop muted)
+      source(src="/assets/video/loop_740.mov")
+      source(src="/assets/video/loop_740.mp4")
+
+    div(class="container" id="home-main-section")
+      div(class='row')
+        div(class='col-sm-10 col-md-8 col-md-offset-2 text-center')
+          h2 La Inteligencia Artificial de Plug & Play que mejora la visibilidad de tus productos
+          p El producto perfecto para tu cliente está en siempre en la última página del listado de productos. Descubre <b>Smart List</b> la inteligencia artificial que ordena los productos para darles la máxima visibilidad.
+          div(class='row')
+            div(class="col-md-6 col-md-offset-3")
+              a(href="/cases" class="btn btn-block btn--outline") !{lang.index.more_info}
+          div(class="m-t-20") !{lang.index.footer}
+      
   section(class="text-center")
     div(class="container")
       div(class="row")
-        div(class="col-sm-10 col-md-8")
-          h1 #{lang.smart.title}
-          p(class="lead") #{lang.smart.subtitle}
-  section
-    div(class="container")
+        div(class="col-sm-12 col-md-8 col-md-offset-2")
+          h3 Tus usuarios no pasan de la segunda página de productos 
+          p Sabes que pierdes oportunidades de venta no mostrando a los usuarios los productos adecuados ¿No crees que es el momento de hacer algo?
+
+      div(class="row m-t-50")
+        div(class="col-sm-10 col-md-4 col-md-offset-2")
+          h4(class="m-b-0") Tus listado ahora
+          img(class="m-b-0" src="/assets/img/laptop_1.png" width="150px")
+          p Analizando las preferencias de tus usuarios los productos que pueden probar más interes están ocultos en enormes listados. 
+        div(class="col-sm-10 col-md-4")
+          h4(class="m-b-0") Un Listado inteligente
+          img(class="m-b-0" src="/assets/img/laptop_2.png" width="150px")
+          p Con <b>Smart List</b> los productos se ordenan dependiendo de las preferencias del usuarios maximizando las posibilidades de compra.
+          
+  section(class="bg--secondary")
+    div(class="container text-center")
       div(class="row")
-        div(class="col-sm-12 col-md-6 col-md-offset-3")
-          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
-            h2(class='color--primary') #{lang.startups.startup_title}
-            span(class="h2")
-              span(class="pricing__dollar small") €&nbsp;
-              | #{lang.startups.startup_price}
-              small #{lang.startups.month}
-            span #{lang.startups.price_without_tax}
-            ul
-              li 
-                b #{lang.startups.startup_users}
-              li #{lang.startups.startup_segments}
-              li #{lang.startups.startup_tests}
-              li #{lang.startups.startup_customs}
-              li #{lang.startups.startup_limit}
-            a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
-              span(class="btn__text type--uppercase") #{lang.startups.select_plan}
-        div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
-            h2(class='color--primary') #{lang.startups.startup_title}
-            span(class="h2")
-              span(class="pricing__dollar small") €&nbsp;
-              | #{lang.startups.startup_price}
-              small #{lang.startups.month}
-            span #{lang.startups.price_without_tax}
-            ul
-              li 
-                b #{lang.startups.startup_users}
-              li #{lang.startups.startup_segments}
-              li #{lang.startups.startup_tests}
-              li #{lang.startups.startup_customs}
-              li #{lang.startups.startup_limit}
-            a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
-              span(class="btn__text type--uppercase") #{lang.startups.select_plan}
-        div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
-            h2(class='color--primary') #{lang.startups.startup_title}
-            span(class="h2")
-              span(class="pricing__dollar small") €&nbsp;
-              | #{lang.startups.startup_price}
-              small #{lang.startups.month}
-            span #{lang.startups.price_without_tax}
-            ul
-              li 
-                b #{lang.startups.startup_users}
-              li #{lang.startups.startup_segments}
-              li #{lang.startups.startup_tests}
-              li #{lang.startups.startup_customs}
-              li #{lang.startups.startup_limit}
-            a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
-              span(class="btn__text type--uppercase") #{lang.startups.select_plan}
-        div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
-            h2(class='color--primary') #{lang.startups.startup_title}
-            span(class="h2")
-              span(class="pricing__dollar small") €&nbsp;
-              | #{lang.startups.startup_price}
-              small #{lang.startups.month}
-            span #{lang.startups.price_without_tax}
-            ul
-              li 
-                b #{lang.startups.startup_users}
-              li #{lang.startups.startup_segments}
-              li #{lang.startups.startup_tests}
-              li #{lang.startups.startup_customs}
-              li #{lang.startups.startup_limit}
-            a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
-              span(class="btn__text type--uppercase") #{lang.startups.select_plan}
-        div(class="col-sm-6 col-md-4")
+        div(class="col-sm-12 col-md-8 col-md-offset-2")
+          h3 Tech to fall in love 
+          p La IA especializada en descubrir los gustos de tus usuarios.
+          div(class="row m-t-50")
+            div(class="col-sm-12 col-md-6")
+              img(class="m-b-0" src="/assets/img/brain.png" width="500px")
+            div(class="col-sm-12 col-md-6 text-left")
+              h5(class="m-b-20") Machine Learning aplicado a preferencias
+              p(class="small") La tecnología de Smart List usando Machine Learning permite descubir las preferencias del usuario, almacenado patrones de comportamiento y crea dinámicamente un sistema de valoración de productos entrenado que le asegura un mayor impacto en el usuario.
+              p(class="small") Automáticamente extrae automáticamente toda la información y gestiona la más relevante para el usuario: patrón, colores, tallas, precio, descuento, etc...
   
-  section(class="text-center")
+  section(class="")
+    div(class="container text-center")
+      div(class="row")
+        div(class="col-sm-12 col-md-8 col-md-offset-2")
+          h3 ¿Instalación Complicada?
+          p Todos decimos que no te preocupes, qué no tiene casi tiempo de instalación. Smart List se intala con un plugin y empieza a funcionar desde el primer segundo. No te va a dar tiempo a bajar a por un café.
+          div(class="row m-t-50")
+            div(class="col-sm-12 col-md-6 text-right")
+              h5(class="m-b-20") Módulo Plug & Play
+              p(class="small") Sabemos que tu trabajo no es pasarte horas configurando nuestra tecnología, queremos ayudarte a vender y no hacer perder tiempo. Smart List se instala con un módulo completamente automático, una vez instalado no tendrás que configurar nada.
+              p(class="small") Smart List automáticamente extrae toda la información de los productos y pondera automáticamente qué es lo más importante para los usuarios a la hora de escoger productos.
+            div(class="col-sm-12 col-md-6")
+              img(class="m-b-0" src="/assets/img/prestashop_icon.png" width="300px")
+  
+  section(class="bg--secondary text-center")
+    div(class="container")
+      div(class="row m-b-20")
+        div(class="col-sm-10 col-md-8 col-md-offset-2")
+          h3(class="m-b-0") Nuestros clientes
+          p La mejor forma de ver cómo personalizamos es que veas las tiendas de nuestros clientes.
+      div(class="row")
+        div(class="col-sm-10 col-md-8 col-md-offset-2")
+          img(class="m-b-0 m-l-10 m-r-10" src="/assets/img/krack.png" width="125px")
+          img(class="m-b-0 m-l-10 m-r-10" src="/assets/img/pintar_sin_parar.png" width="125px")
+          
+  section(class="")
+    div(class="container")
+      div(class="row text-center m-b-50")
+        div(class="col-sm-12 col-md-12")
+          h3 Planes de precios
+          p Quítatelo de la cabeza, la Inteligencia Artificial no tiene que ser cara
+
+      div(class="row")
+        div(class="col-sm-12 col-md-3")
+          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
+            h2(class='color--primary') Starter
+            h2
+              span(class="pricing__dollar small") €&nbsp;
+              | 19
+              small #{lang.startups.month}
+            ul
+              li Hasta 50.000<br/>Usuarios/mes
+            a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
+              span(class="btn__text type--uppercase") Prueba 1 mes gratis
+        div(class="col-sm-12 col-md-3")
+          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
+            h2(class='color--primary') Regular
+            h2
+              span(class="pricing__dollar small") €&nbsp;
+              | 29
+              small #{lang.startups.month}
+            ul
+              li Hasta 100.000<br/>Usuarios/mes
+            a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
+              span(class="btn__text type--uppercase") Prueba 1 mes gratis
+        div(class="col-sm-12 col-md-3")
+          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
+            h2(class='color--primary') Plus
+            h2
+              span(class="pricing__dollar small") €&nbsp;
+              | 59
+              small #{lang.startups.month}
+            ul
+              li Hasta 250.000<br/>Usuarios/mes
+            a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
+              span(class="btn__text type--uppercase") Prueba 1 mes gratis
+        div(class="col-sm-12 col-md-3")
+          div(class="pricing pricing-1 boxed boxed--border boxed--lg text-center")
+            h2(class='color--primary') Enterprise
+            h2
+              span(class="pricing__dollar small") €&nbsp;
+              | 149
+              small #{lang.startups.month}
+            ul
+              li Hasta 500.000<br/>Usuarios/mes
+            a(class="btn btn--primary" href="https://conver.fit/app/access/signup")
+              span(class="btn__text type--uppercase") #{lang.startups.select_plan}
+  
+  section(class="bg--secondary text-center")
     div(class="container")
       div(class="row")
         div(class="col-sm-10 col-md-8")
-          h3 #{lang.startups.pricing_section_title}
-          p #{lang.startups.pricing_section_subtitle}
+          h3 ¿Tienes alguna duda?
+          p Si tienes alguna duda o quieres que nuestro fantástico equipo se ponga en contacto con nosotros ponte en contacto con nuestro equipo
           div
-            a(class="btn btn--primary type--uppercase" href='/pricing')
-              span(class="btn__text") #{lang.startups.pricing_section_button}
+            a(class="btn btn--primary type--uppercase" href='/calendly')
+              span(class="btn__text") Solicitar Demo
+
+            a(class="btn btn--secondary type--uppercase" href='/pricing')
+              span(class="btn__text") Contacta

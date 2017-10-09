@@ -100,6 +100,10 @@
       }
     ]
   },
+  "smart" : {
+    "title" : "A partir de la segunda página nadie va a mirar tus productos",
+    "subtitle" : "Aplica el Machine Learning para reorganizar tus productos y mostrar los que más le interesantes primero"
+  },
   "infinite" : {
     "title" :"<h2>Aumenta tus ventas hasta el infinito en un par de clics</h2>",
     "subtitle" : "<p class=''>¿Lo hacemos juntos?</p>",
@@ -155,7 +159,7 @@
     "enterprise_customs" : "Creación de Personalizaciones",
     "enterprise_accademy" : "Facturación a éxito",
     "enterprise_button" : "Reserva una demo",
-    
+
     "startup_section_title" : "¿Eres una startup?",
     "startup_section_subtitle" : "Si eres una Startup, disfruta durante nuestro plan para apoyarte :)",
     "startup_section_button" : "Ver plan Startup"
